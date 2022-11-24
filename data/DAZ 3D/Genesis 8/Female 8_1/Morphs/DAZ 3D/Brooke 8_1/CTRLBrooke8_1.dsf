@@ -1,0 +1,68 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%208/Female%208_1/Morphs/DAZ/Brooke%208_1/CTRLBrooke8_1.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2020-12-27T05:14:09Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLBrooke8_1_",
+			"name" : "CTRLBrooke8_1_",
+			"parent" : "/data/Daz%203D/Genesis%208/Female%208_1/Genesis8_1Female.dsf#Genesis8_1Female",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/Brooke%208_1/CTRLBrooke8_1.png",
+				"colors" : [ [ 1, 0.5764706, 0.7607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRLBrooke8_1_",
+				"label" : "Brooke 8.1",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/People/Real World",
+			"formulas" : [
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/DAZ/Brooke%208_1/FHMBrooke8_1.dsf#FHMBrooke8_1_?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#CTRLBrooke8_1_?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/DAZ/Brooke%208_1/FBMBrooke8_1.dsf#FBMBrooke8_1?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#CTRLBrooke8_1_?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLBrooke8_1_-1",
+				"url" : "#CTRLBrooke8_1_"
+			}
+		]
+	}
+}

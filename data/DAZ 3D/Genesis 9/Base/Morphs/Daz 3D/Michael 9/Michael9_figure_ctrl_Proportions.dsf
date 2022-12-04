@@ -1,0 +1,60 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Michael%209/Michael9_figure_ctrl_Proportions.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "0.0",
+		"modified" : "2022-10-11T23:13:45Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Michael9_figure_ctrl_Proportions",
+			"name" : "Michael9_figure_ctrl_Proportions",
+			"parent" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#Genesis9",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.9764706, 0.772549, 0.1764706 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Michael9_figure_ctrl_Proportions",
+				"label" : "Michael 9 Proportions",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/People/Masculine",
+			"formulas" : [
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Base%20Proportion/body_bs_ProportionHeight.dsf#body_bs_ProportionHeight?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Michael9_figure_ctrl_Proportions?value" },
+						{ "op" : "push", "val" : 0.315 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Michael9_figure_ctrl_Proportions-1",
+				"url" : "#Michael9_figure_ctrl_Proportions"
+			}
+		]
+	}
+}

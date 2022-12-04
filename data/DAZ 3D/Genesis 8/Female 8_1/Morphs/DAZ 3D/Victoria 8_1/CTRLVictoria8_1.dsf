@@ -1,0 +1,76 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%208/Female%208_1/Morphs/DAZ%203D/Victoria%208_1/CTRLVictoria8_1.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2020-10-30T06:00:53Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLVictoria8_1",
+			"name" : "CTRLVictoria8_1",
+			"parent" : "/data/Daz%203D/Genesis%208/Female%208_1/Genesis8_1Female.dsf#Genesis8_1Female",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/DAZ%203D/Genesis%208/Female%208_1/Morphs/DAZ%203D/Victoria%208_1/CTRLVictoria8_1.png",
+				"colors" : [ [ 1, 0.5764706, 0.7607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRLVictoria8_1",
+				"label" : "Victoria 8.1",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/People/Real World",
+			"formulas" : [
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Genesis8_1Female.dsf#Genesis8_1Female?scale/general",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#CTRLVictoria8_1?value" },
+						{ "op" : "push", "val" : -0.04799998 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/DAZ%203D/Victoria%208_1/FHMVictoria8_1.dsf#FHMVictoria8_1?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#CTRLVictoria8_1?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/DAZ%203D/Victoria%208_1/FBMVictoria8_1.dsf#FBMVictoria8_1?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#CTRLVictoria8_1?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLVictoria8_1-1",
+				"url" : "#CTRLVictoria8_1"
+			}
+		]
+	}
+}

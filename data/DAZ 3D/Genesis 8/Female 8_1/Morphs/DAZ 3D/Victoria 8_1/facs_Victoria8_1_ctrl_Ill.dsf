@@ -1,0 +1,123 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%208/Female%208_1/Morphs/DAZ%203D/Victoria%208_1/facs_Victoria8_1_ctrl_Ill.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2020-11-12T19:13:41Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "facs_Victoria8_1_ctrl_Ill",
+			"name" : "facs_Victoria8_1_ctrl_Ill",
+			"parent" : "/data/Daz%203D/Genesis%208/Female%208_1/Genesis8_1Female.dsf#Genesis8_1Female",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 0.4980392, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "facs_Victoria8_1_ctrl_Ill",
+				"label" : "facs_Victoria8_1_ctrl_Ill",
+				"visible" : false,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Hidden/People/Victoria 8.1/FACS/CTRLs",
+			"formulas" : [
+				{
+					"output" : "Genesis8_1Female:#facs_Victoria8_1_ctrl_Ill?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_ctrl_Ill.dsf#facs_ctrl_Ill?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:#facs_Victoria8_1_ctrl_Ill?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/DAZ%203D/Victoria%208_1/FHMVictoria8_1.dsf#FHMVictoria8_1?value" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_jnt_JawRecess.dsf#facs_jnt_JawRecess?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#facs_Victoria8_1_ctrl_Ill?value" },
+						{ "op" : "push", "val" : -0.2390397 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_ctrl_MouthPress.dsf#facs_ctrl_MouthPress?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#facs_Victoria8_1_ctrl_Ill?value" },
+						{ "op" : "push", "val" : -0.1248434 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_ctrl_MouthLowerDown.dsf#facs_ctrl_MouthLowerDown?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#facs_Victoria8_1_ctrl_Ill?value" },
+						{ "op" : "push", "val" : -0.2534447 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_ctrl_MouthFrown.dsf#facs_ctrl_MouthFrown?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#facs_Victoria8_1_ctrl_Ill?value" },
+						{ "op" : "push", "val" : -0.0993737 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_ctrl_MouthDimple.dsf#facs_ctrl_MouthDimple?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#facs_Victoria8_1_ctrl_Ill?value" },
+						{ "op" : "push", "val" : -0.1311065 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_ctrl_EyeSquint.dsf#facs_ctrl_EyesSquint?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#facs_Victoria8_1_ctrl_Ill?value" },
+						{ "op" : "push", "val" : -0.3866388 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_ctrl_CheekSquint.dsf#facs_ctrl_CheekSquint?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#facs_Victoria8_1_ctrl_Ill?value" },
+						{ "op" : "push", "val" : -0.09968685 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "facs_Victoria8_1_ctrl_Ill-1",
+				"url" : "#facs_Victoria8_1_ctrl_Ill"
+			}
+		]
+	}
+}

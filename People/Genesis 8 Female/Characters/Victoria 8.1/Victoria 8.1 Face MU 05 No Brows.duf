@@ -1,0 +1,4028 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Victoria%208.1/Materials/New%20folder/Victoria%208.1%20MU%2005.duf",
+		"type" : "preset_hierarchical_material",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2020-12-02T09:47:49Z"
+	},
+	"image_library" : [
+		{
+			"id" : "Victoria8_1_MU05M_1001.jpg-3",
+			"name" : "Victoria8_1_MU05M_1001.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_MU05M_1001.jpg",
+					"label" : "Victoria8_1_MU05M_1001.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Victoria8_1_MU05C2_1001.jpg-3",
+			"name" : "Victoria8_1_MU05C2_1001.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_MU05C2_1001.jpg",
+					"label" : "Victoria8_1_MU05C2_1001.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Victoria8_1_MU05D2_1001.jpg-3",
+			"name" : "Victoria8_1_MU05D2_1001.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_MU05D2_1001.jpg",
+					"label" : "Victoria8_1_MU05D2_1001.jpg"
+				}
+			]
+		}
+	],
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Genesis8_1Female",
+				"url" : "name://@selection/Genesis8_1Female:",
+				"geometries" : [
+					{
+						"id" : "Genesis81FemaleGeom",
+						"url" : "name://@selection#geometries/Genesis81FemaleGeom:"
+					}
+				]
+			},
+			{
+				"id" : "Genesis8_1FemaleEyelashes",
+				"url" : "name://@selection/Genesis8_1FemaleEyelashes:",
+				"parent" : "#Genesis8_1Female",
+				"geometries" : [
+					{
+						"id" : "EyelashesCollapsed",
+						"url" : "name://@selection#geometries/EyelashesCollapsed:"
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesCurlIrregularLower:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesCurlIrregularLowerPoint:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesCurlIrregularUpper:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesCurlIrregularUpperPoint:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesCurlUniformLower:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesCurlUniformUpper:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesGoneLower:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesGoneUpper:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesHeightUniformLower:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesHeightUniformUpper:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesLengthIrregularLower:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesLengthIrregularUpper:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesLengthUniformLower:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesLengthUniformUpper:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesRootSpreadIrregularLower:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesRootSpreadIrregularUpper:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesSkewIrregularLower:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesSkewIrregularUpper:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#bs_EyelashesTopPoint:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallicity%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Weight/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_MU05M_1001.jpg" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Weight/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_MU05C2_1001.jpg" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Base%20Color/value",
+				"keys" : [ [ 0, [ 0.8941176, 0.8941176, 0.8941176 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_MU05D2_1001.jpg" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Makeup%20Metallicity%20Enable/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Enable/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Size/value",
+				"keys" : [ [ 0, 0.8 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Density/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Metallic%20Flakes%20Bump%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallicity%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Weight/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_MU05M_1001.jpg" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Weight/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_MU05C2_1001.jpg" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Base%20Color/value",
+				"keys" : [ [ 0, [ 0.8941176, 0.8941176, 0.8941176 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_MU05D2_1001.jpg" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Makeup%20Metallicity%20Enable/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Enable/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Size/value",
+				"keys" : [ [ 0, 0.8 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Density/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Metallic%20Flakes%20Bump%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallicity%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Weight/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_MU05M_1001.jpg" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Weight/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_MU05C2_1001.jpg" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Base%20Color/value",
+				"keys" : [ [ 0, [ 0.8941176, 0.8941176, 0.8941176 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_MU05D2_1001.jpg" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Makeup%20Metallicity%20Enable/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Enable/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Size/value",
+				"keys" : [ [ 0, 0.8 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Density/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Bump%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallicity%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_MU05M_1001.jpg" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Weight/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_MU05C2_1001.jpg" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Base%20Color/value",
+				"keys" : [ [ 0, [ 0.8588235, 0.8588235, 0.8588235 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_MU05D2_1001.jpg" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Base%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Roughness%20Mult/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Makeup%20Metallicity%20Enable/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Enable/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Size/value",
+				"keys" : [ [ 0, 0.8 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Density/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Flakes%20Bump%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Tags/value",
+				"keys" : [ [ 0, "" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/OutlineColorID/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Render%20Priority/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Propagate%20Priority/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Mixing/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?diffuse/value",
+				"keys" : [ [ 0, [ 0.08235295, 0.07058824, 0.0627451 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?diffuse/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?diffuse/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?diffuse/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?diffuse/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?diffuse/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?diffuse/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?diffuse/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?diffuse/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight%20Squared/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/value",
+				"keys" : [ [ 0, [ 0.7529412, 0.7529412, 0.7529412 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Weight/value",
+				"keys" : [ [ 0, 0.1005025 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Color/value",
+				"keys" : [ [ 0, [ 0.5960785, 0.4588235, 0.3686275 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Invert%20Transmission%20Normal/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/SSS%20Reflectance%20Tint/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Glossiness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Glossiness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Glossiness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Glossiness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Glossiness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Glossiness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Glossiness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Glossiness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Glossiness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Glossiness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Glossiness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Glossiness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Glossiness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Glossiness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Glossiness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Glossiness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Glossiness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Glossiness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Glossiness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Glossiness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/value",
+				"keys" : [ [ 0, 0.85 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Share%20Glossy%20Inputs/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Reflectivity/value",
+				"keys" : [ [ 0, 0.17 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Specular/value",
+				"keys" : [ [ 0, [ 0.2313726, 0.2313726, 0.2313726 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Specular/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Specular/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Specular/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Specular/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Specular/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Specular/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Specular/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Specular/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Roughness/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossiness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossiness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossiness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossiness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossiness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossiness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossiness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossiness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossiness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossiness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Glossiness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Index/value",
+				"keys" : [ [ 0, 1.5 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Glossiness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Glossiness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Abbe/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/value",
+				"keys" : [ [ 0, 0.4976526 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film%20IOR/value",
+				"keys" : [ [ 0, 1.5 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film%20IOR/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film%20IOR/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film%20IOR/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film%20IOR/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film%20IOR/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film%20IOR/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film%20IOR/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film%20IOR/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Base%20Thin%20Film%20IOR/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Bump%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Bump%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Normal%20Map/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_EyelashesNM.jpg" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Glossiness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Glossiness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Glossiness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Glossiness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Glossiness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Glossiness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Glossiness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Glossiness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Glossiness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Glossiness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Size/value",
+				"keys" : [ [ 0, 0.001 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Density/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film%20IOR/value",
+				"keys" : [ [ 0, 1.5 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film%20IOR/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film%20IOR/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film%20IOR/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film%20IOR/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film%20IOR/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film%20IOR/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film%20IOR/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film%20IOR/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Metallic%20Flakes%20Thin%20Film%20IOR/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Glossiness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Glossiness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Glossiness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Glossiness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Glossiness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Glossiness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Glossiness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Glossiness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Glossiness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Glossiness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Layering%20Mode/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Reflectivity/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Reflectivity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Reflectivity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Reflectivity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Reflectivity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Reflectivity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Reflectivity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Reflectivity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Reflectivity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Reflectivity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20IOR/value",
+				"keys" : [ [ 0, 1.5 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20IOR/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20IOR/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20IOR/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20IOR/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20IOR/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20IOR/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20IOR/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20IOR/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20IOR/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Normal/value",
+				"keys" : [ [ 0, 0.04 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Normal/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Normal/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Normal/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Normal/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Normal/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Normal/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Normal/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Normal/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Normal/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Grazing/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Grazing/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Grazing/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Grazing/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Grazing/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Grazing/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Grazing/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Grazing/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Grazing/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Grazing/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Exponent/value",
+				"keys" : [ [ 0, 5 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Exponent/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Exponent/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Exponent/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Exponent/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Exponent/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Exponent/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Exponent/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Exponent/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Curve%20Exponent/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Anisotropy/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Anisotropy/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Anisotropy/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Anisotropy/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Anisotropy/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Anisotropy/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Anisotropy/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Anisotropy/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Anisotropy/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Anisotropy/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Rotations/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Rotations/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Rotations/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Rotations/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Rotations/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Rotations/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Rotations/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Rotations/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Rotations/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Rotations/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film%20IOR/value",
+				"keys" : [ [ 0, 1.5 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film%20IOR/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film%20IOR/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film%20IOR/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film%20IOR/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film%20IOR/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film%20IOR/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film%20IOR/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film%20IOR/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Thin%20Film%20IOR/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Bump%20Mode/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Bump/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Bump/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Bump/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Bump/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Bump/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Bump/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Top%20Coat%20Bump/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Thin%20Walled/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Transmitted%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Transmitted%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/SSS%20Mode/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Scattering%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/SSS%20Amount/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/SSS%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Emission%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Emission%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Emission%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Emission%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Emission%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Emission%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Emission%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Emission%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Emission%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Emission%20Temperature/value",
+				"keys" : [ [ 0, 6500 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Two%20Sided%20Light/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Emission%20Profile/value",
+				"keys" : [ [ 0, "" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Luminance/value",
+				"keys" : [ [ 0, 1500 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Luminance/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Luminance/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Luminance/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Luminance/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Luminance/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Luminance/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Luminance/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Luminance/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Luminance/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Luminance%20Units/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Luminous%20Efficacy/value",
+				"keys" : [ [ 0, 15 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Cutout%20Opacity/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Cutout%20Opacity/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_EyelashesO.jpg" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Displacement%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Displacement%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Minimum%20Displacement/value",
+				"keys" : [ [ 0, -0.1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Maximum%20Displacement/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/SubD%20Displacement%20Level/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Horizontal%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Horizontal%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Vertical%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Vertical%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?uv_set",
+				"keys" : [ [ 0, "/data/Daz%203D/Genesis%208/Female%208_1%20Eyelashes/UV%20Sets/DAZ%203D/Base/default.dsf#default" ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Smooth%20On/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Smooth%20Angle/value",
+				"keys" : [ [ 0, 89.9 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Round%20Corners%20Radius/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Round%20Corners%20Across%20Materials/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Round%20Corners%20Roundness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Line%20Preview%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Line%20Start%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Line%20End%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Line%20UV%20Width/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Roughness%20Squared/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/Glossiness%20Squared/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1FemaleEyelashes#materials/Eyelashes:?extra/studio_material_channels/channels/BSDF%20Type/value",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

@@ -1,0 +1,107 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%208/Female%208_1/Morphs/DAZ%203D/Victoria%208_1/MCMVictoria8_1_Navel_HDLv4.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2020-10-27T01:18:22Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "MCMVictoria8_1_Navel_HDLv4",
+			"name" : "MCMVictoria8_1_Navel_HDLv4",
+			"parent" : "/data/Daz%203D/Genesis%208/Female%208_1/Genesis8_1Female.dsf#Genesis81FemaleGeom",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 0.4980392, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "MCMVictoria8_1_Navel_HDLv4",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/People/Victoria 8.1/MCMs",
+			"formulas" : [
+				{
+					"output" : "Genesis8_1Female:#MCMVictoria8_1_Navel_HDLv4?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base/PBMNavel.dsf#PBMNavel?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:#MCMVictoria8_1_Navel_HDLv4?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/DAZ%203D/Victoria%208_1/FBMVictoria8_1.dsf#FBMVictoria8_1?value" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 30,
+					"values" : [
+						[ 0, 0.000275221, 0.04047394, -0.09783554 ],
+						[ 31, -0.02968247, -0.1588669, -0.3312597 ],
+						[ 81, -0.0004391027, 0.04059601, 0.003047943 ],
+						[ 102, -0.0002399943, 0.02423859, -0.1277952 ],
+						[ 1785, -0.05665743, 0.008476257, -0.04222775 ],
+						[ 2821, -0.01901281, 0.06854248, -0.1158924 ],
+						[ 3208, -0.0325973, -0.02561951, -0.01045609 ],
+						[ 3210, -0.00131094, 0.09422302, -0.1001959 ],
+						[ 3211, -0.05772066, -0.004302979, 0.03986168 ],
+						[ 3212, 0.003107968, -0.04668427, -0.09779835 ],
+						[ 3213, -0.09953228, -0.03536987, -0.05117702 ],
+						[ 3221, 0.03305274, -0.04680634, -0.01109886 ],
+						[ 3222, 0.01436007, -0.03323364, -0.04539108 ],
+						[ 3223, 0.05723771, -0.02587128, -0.05915737 ],
+						[ 5619, -0.0007941302, -0.2343903, -0.1879978 ],
+						[ 5620, -0.05178708, -0.04824829, 0.06480026 ],
+						[ 5621, -0.0005947391, -0.007591248, 0.08892155 ],
+						[ 5622, -0.04537046, 0.004127502, -0.07076073 ],
+						[ 5623, 0.01069269, -0.02867126, -0.02731514 ],
+						[ 8295, 0.06061578, 0.01029968, -0.0571394 ],
+						[ 9331, 0.01942492, 0.06856537, -0.1062326 ],
+						[ 9711, 0.03229332, -0.02509308, -0.01272202 ],
+						[ 9712, 0.05471224, -0.007461548, 0.03942585 ],
+						[ 9713, 0.0973165, -0.03624725, -0.05853844 ],
+						[ 9721, -0.03282213, -0.04723358, -0.01266193 ],
+						[ 9722, -0.01629627, -0.03132629, -0.04126263 ],
+						[ 9723, -0.05162767, -0.02462006, -0.04810524 ],
+						[ 12069, 0.05223443, -0.05103302, 0.06486416 ],
+						[ 12070, 0.04544193, -0.0007171631, -0.07176781 ],
+						[ 12071, -0.01769006, -0.02967834, -0.03704929 ]
+					]
+				},
+				"hd_url" : "/data/Daz%203D/Genesis%208/Female%208_1/Morphs/DAZ%203D/Victoria%208_1/MCMVictoria8_1_Navel_HDLv4.dhdm"
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "MCMVictoria8_1_Navel_HDLv4-1",
+				"url" : "#MCMVictoria8_1_Navel_HDLv4"
+			}
+		]
+	}
+}

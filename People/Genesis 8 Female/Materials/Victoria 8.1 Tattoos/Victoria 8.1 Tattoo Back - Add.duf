@@ -1,0 +1,440 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Victoria%208.1/Materials/Iray/Victoria%208.1%20Tattoo%20Back.duf",
+		"type" : "preset_layered_image",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2020-12-11T20:48:53Z"
+	},
+	"image_library" : [
+		{
+			"id" : "Victoria8_1_ArmsD_1005_d58",
+			"name" : "Victoria8_1_ArmsD_1005_d58",
+			"map_size" : [ 4096, 4096 ],
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_ArmsD_1005.jpg",
+					"label" : "Victoria8_1_ArmsD_1005.jpg",
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend"
+				},
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Tattoos/C_Arms_Back_Piece_3_1005.png",
+					"label" : "C_Arms_Back_Piece_3_1005",
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend"
+				}
+			]
+		},
+		{
+			"id" : "Victoria8_1_ArmsSSS_1005_d59",
+			"name" : "Victoria8_1_ArmsSSS_1005_d59",
+			"map_size" : [ 4096, 4096 ],
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_ArmsSSS_1005.jpg",
+					"label" : "Victoria8_1_ArmsSSS_1005.jpg",
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend"
+				},
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Tattoos/C_Arms_Back_Piece_3_1005.png",
+					"label" : "C_Arms_Back_Piece_3_1005",
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 0.5,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend"
+				}
+			]
+		},
+		{
+			"id" : "Victoria8_1_BodyD_1003_Victoria8_1_BodyD_1003",
+			"name" : "Victoria8_1_BodyD_1003_Victoria8_1_BodyD_1003",
+			"map_size" : [ 4096, 4096 ],
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_BodyD_1003.jpg",
+					"label" : "Victoria8_1_BodyD_1003.jpg",
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend"
+				},
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Tattoos/C_Body_Back_Piece_1003.png",
+					"label" : "C_Body_Back_Piece_1003",
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend"
+				}
+			]
+		},
+		{
+			"id" : "Victoria8_1_BodySSS_1003_Victoria8_1_BodySSS_1003",
+			"name" : "Victoria8_1_BodySSS_1003_Victoria8_1_BodySSS_1003",
+			"map_size" : [ 4096, 4096 ],
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_BodySSS_1003.jpg",
+					"label" : "Victoria8_1_BodySSS_1003.jpg",
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend"
+				},
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Tattoos/C_Body_Back_Piece_1003.png",
+					"label" : "C_Body_Back_Piece_1003",
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 0.5,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend"
+				}
+			]
+		},
+		{
+			"id" : "Victoria8_1_HeadD_1002_Victoria8_1_HeadD_1002",
+			"name" : "Victoria8_1_HeadD_1002_Victoria8_1_HeadD_1002",
+			"map_size" : [ 4096, 4096 ],
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_HeadD_1002.jpg",
+					"label" : "Victoria8_1_HeadD_1002.jpg",
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend"
+				},
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Tattoos/C_Head_Back_Piece_2_1002.png",
+					"label" : "C_Head_Back_Piece_2_1002",
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend"
+				}
+			]
+		},
+		{
+			"id" : "Victoria8_1_HeadSSS_1002 2_Victoria8_1_HeadSSS_1002",
+			"name" : "Victoria8_1_HeadSSS_1002 2_Victoria8_1_HeadSSS_1002",
+			"map_size" : [ 4096, 4096 ],
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Victoria8_1_HeadSSS_1002.jpg",
+					"label" : "Victoria8_1_HeadSSS_1002.jpg",
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend"
+				},
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Victoria8_1/Tattoos/C_Head_Back_Piece_2_1002.png",
+					"label" : "C_Head_Back_Piece_2_1002",
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 0.5,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend"
+				}
+			]
+		}
+	],
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/Arms:?diffuse/image",
+				"keys" : [ [ 0, "#Victoria8_1_ArmsD_1005_d58" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?diffuse/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?diffuse/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?diffuse/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?diffuse/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?diffuse/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?diffuse/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?diffuse/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Translucency%20Color/image",
+				"keys" : [ [ 0, "#Victoria8_1_ArmsSSS_1005_d59" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?diffuse/image",
+				"keys" : [ [ 0, "#Victoria8_1_BodyD_1003_Victoria8_1_BodyD_1003" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?diffuse/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?diffuse/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?diffuse/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?diffuse/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?diffuse/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?diffuse/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?diffuse/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Translucency%20Color/image",
+				"keys" : [ [ 0, "#Victoria8_1_BodySSS_1003_Victoria8_1_BodySSS_1003" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?diffuse/image",
+				"keys" : [ [ 0, "#Victoria8_1_HeadD_1002_Victoria8_1_HeadD_1002" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?diffuse/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?diffuse/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?diffuse/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?diffuse/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?diffuse/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?diffuse/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?diffuse/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?extra/studio_material_channels/channels/Translucency%20Color/image",
+				"keys" : [ [ 0, "#Victoria8_1_HeadSSS_1002%202_Victoria8_1_HeadSSS_1002" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Head:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

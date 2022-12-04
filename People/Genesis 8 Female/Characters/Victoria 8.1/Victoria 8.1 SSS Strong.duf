@@ -1,0 +1,244 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Victoria%208.1/Materials/Iray/Victoria%208.1%20SSS%20Default.duf",
+		"type" : "preset_hierarchical_material",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2020-12-03T06:25:55Z"
+	},
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Genesis8_1Female",
+				"url" : "name://@selection/Genesis8_1Female:",
+				"geometries" : [
+					{
+						"id" : "Genesis81FemaleGeom",
+						"url" : "name://@selection#geometries/Genesis81FemaleGeom:"
+					}
+				]
+			},
+			{
+				"id" : "G8MGenitalia",
+				"url" : "name://@selection/G8MGenitalia:",
+				"parent" : "#Genesis8_1Female",
+				"geometries" : [
+					{
+						"id" : "G8MGenitalia-1",
+						"url" : "name://@selection#geometries/G8MGenitalia:"
+					}
+				]
+			},
+			{
+				"id" : "Genesis8FemaleGenitalia",
+				"url" : "name://@selection/Genesis8FemaleGenitalia:",
+				"parent" : "#Genesis8_1Female",
+				"geometries" : [
+					{
+						"id" : "geometry",
+						"url" : "name://@selection#geometries/geometry:"
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "Genesis8_1Female#materials/Arms:?extra/studio_material_channels/channels/Transmission%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Arms:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Arms:?extra/studio_material_channels/channels/channels/Sub%20Surface%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Arms:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Body:?extra/studio_material_channels/channels/Transmission%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Body:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Body:?extra/studio_material_channels/channels/channels/Sub%20Surface%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Body:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Transmission%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/channels/Sub%20Surface%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Ears:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Transmission%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/channels/Sub%20Surface%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/EyeSocket:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Transmission%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/channels/Sub%20Surface%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Face:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Fingernails:?extra/studio_material_channels/channels/Transmission%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Fingernails:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Fingernails:?extra/studio_material_channels/channels/channels/Sub%20Surface%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Fingernails:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Head:?extra/studio_material_channels/channels/Transmission%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Head:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Head:?extra/studio_material_channels/channels/channels/Sub%20Surface%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Head:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Legs:?extra/studio_material_channels/channels/Transmission%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Legs:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Legs:?extra/studio_material_channels/channels/channels/Sub%20Surface%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Legs:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Transmission%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/channels/Sub%20Surface%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Lips:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Toenails:?extra/studio_material_channels/channels/Transmission%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Toenails:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Toenails:?extra/studio_material_channels/channels/channels/Sub%20Surface%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8_1Female#materials/Toenails:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGenitalia#materials/Genitalia:?extra/studio_material_channels/channels/Transmission%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "G8MGenitalia#materials/Genitalia:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "G8MGenitalia#materials/Genitalia:?extra/studio_material_channels/channels/channels/Sub%20Surface%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "G8MGenitalia#materials/Genitalia:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8FemaleGenitalia#materials/Genitalia:?extra/studio_material_channels/channels/Transmission%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8FemaleGenitalia#materials/Genitalia:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "Genesis8FemaleGenitalia#materials/Genitalia:?extra/studio_material_channels/channels/channels/Sub%20Surface%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis8FemaleGenitalia#materials/Genitalia:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

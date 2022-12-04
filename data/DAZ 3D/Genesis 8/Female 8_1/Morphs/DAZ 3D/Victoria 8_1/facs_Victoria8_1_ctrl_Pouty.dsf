@@ -1,0 +1,83 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%208/Female%208_1/Morphs/DAZ%203D/Victoria%208_1/facs_Victoria8_1_ctrl_Pouty.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2020-11-12T19:13:41Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "facs_Victoria8_1_ctrl_Pouty",
+			"name" : "facs_Victoria8_1_ctrl_Pouty",
+			"parent" : "/data/Daz%203D/Genesis%208/Female%208_1/Genesis8_1Female.dsf#Genesis8_1Female",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 0.4980392, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "facs_Victoria8_1_ctrl_Pouty",
+				"label" : "facs_Victoria8_1_ctrl_Pouty",
+				"visible" : false,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Hidden/People/Victoria 8.1/FACS/CTRLs",
+			"formulas" : [
+				{
+					"output" : "Genesis8_1Female:#facs_Victoria8_1_ctrl_Pouty?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_ctrl_Pouty.dsf#facs_ctrl_Pouty?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:#facs_Victoria8_1_ctrl_Pouty?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/DAZ%203D/Victoria%208_1/FHMVictoria8_1.dsf#FHMVictoria8_1?value" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_bs_NasalFlare_div2.dsf#facs_bs_NasalFlare_div2?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#facs_Victoria8_1_ctrl_Pouty?value" },
+						{ "op" : "push", "val" : -0.3352818 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_bs_MouthPucker_div2.dsf#facs_bs_MouthPucker_div2?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#facs_Victoria8_1_ctrl_Pouty?value" },
+						{ "op" : "push", "val" : -0.2368476 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "facs_Victoria8_1_ctrl_Pouty-1",
+				"url" : "#facs_Victoria8_1_ctrl_Pouty"
+			}
+		]
+	}
+}

@@ -1,0 +1,102 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%208/Male%208_1/Morphs/Daz%203D/Michael%208_1/pJCMMichael8_1ThighFwd_57_R.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2020-12-04T12:56:47Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "pJCMMichael8_1ThighFwd_57_R",
+			"name" : "pJCMMichael8_1ThighFwd_57_R",
+			"parent" : "/data/Daz%203D/Genesis%208/Male%208_1/Genesis8_1Male.dsf#Genesis81MaleGeom",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 0.4980392, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "pJCMMichael8_1ThighFwd_57_R",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/People/Michael8.1/pJCMs",
+			"formulas" : [
+				{
+					"output" : "Genesis8_1Male:#pJCMMichael8_1ThighFwd_57_R?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Base%20Correctives/pJCMThighFwd_57_R.dsf#pJCMThighFwd_57_R?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Male:#pJCMMichael8_1ThighFwd_57_R?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Male:/data/Daz%203D/Genesis%208/Male%208_1/Morphs/Daz%203D/Michael%208_1/FBMMichael8_1.dsf#FBMMichael8_1?value" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16384,
+				"deltas" : {
+					"count" : 26,
+					"values" : [
+						[ 6962, -0.05820012, -0.2155838, -0.1213703 ],
+						[ 7918, 0.000579834, 0.004699707, -0.05999088 ],
+						[ 7951, 0.00178051, 0.01339722, -0.08609962 ],
+						[ 7955, -0.2578797, 0.06889343, -0.3628998 ],
+						[ 9504, 0.0719099, 0.06259155, -0.2140999 ],
+						[ 9506, 0.004529953, 0.03491974, -0.1507702 ],
+						[ 9511, 0.0007400513, 0.005485535, -0.05119896 ],
+						[ 9513, 0.2456398, 0.01089478, -0.1625004 ],
+						[ 9517, 0.005760193, 0.04598999, -0.1375103 ],
+						[ 9518, 0.007439613, 0.05940247, -0.1756792 ],
+						[ 9519, 0.2623, 0.1313934, -0.1461105 ],
+						[ 9521, 0.009940147, 0.1621933, -0.2077103 ],
+						[ 9522, 0.07463026, -0.04098511, -0.4844513 ],
+						[ 9523, 0.2280402, 0.07530975, -0.1684799 ],
+						[ 9524, 0.1963396, -0.04721069, -0.1908092 ],
+						[ 9525, 0.006529808, 0.05570221, -0.1001396 ],
+						[ 9535, -0.04199982, -0.0009002686, -0.004459381 ],
+						[ 10133, 0.07150936, 0.02239227, -0.07723904 ],
+						[ 10134, -0.01191998, -0.03299713, 0.03358936 ],
+						[ 10139, 0.00590992, 0.04601288, -0.1779699 ],
+						[ 10140, -0.01710987, 0.1240082, -0.3474903 ],
+						[ 10141, 0.09732008, 0.09209442, -0.1692495 ],
+						[ 10142, 0.07523966, 0.05240631, -0.07111931 ],
+						[ 10143, 0.007590294, 0.06230164, -0.1467199 ],
+						[ 10562, -0.11116, -0.002593994, -0.008070469 ],
+						[ 10565, -0.1489701, -0.003494263, -0.01532936 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "pJCMMichael8_1ThighFwd_57_R-1",
+				"url" : "#pJCMMichael8_1ThighFwd_57_R"
+			}
+		]
+	}
+}

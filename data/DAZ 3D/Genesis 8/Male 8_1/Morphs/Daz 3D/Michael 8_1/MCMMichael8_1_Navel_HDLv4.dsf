@@ -1,0 +1,103 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%208/Male%208_1/Morphs/Daz%203D/Michael%208_1/MCMMichael8_1_Navel_HDLv4.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2020-12-04T12:56:48Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "MCMMichael8_1_Navel_HDLv4",
+			"name" : "MCMMichael8_1_Navel_HDLv4",
+			"parent" : "/data/Daz%203D/Genesis%208/Male%208_1/Genesis8_1Male.dsf#Genesis81MaleGeom",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 0.4980392, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "MCMMichael8_1_Navel_HDLv4",
+				"visible" : false,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/People/Michael8.1/MCMs",
+			"formulas" : [
+				{
+					"output" : "Genesis8_1Male:#MCMMichael8_1_Navel_HDLv4?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Base/PBMNavel.dsf#PBMNavel?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Male:#MCMMichael8_1_Navel_HDLv4?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Male:/data/Daz%203D/Genesis%208/Male%208_1/Morphs/Daz%203D/Michael%208_1/FBMMichael8_1.dsf#FBMMichael8_1?value" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16384,
+				"deltas" : {
+					"count" : 27,
+					"values" : [
+						[ 0, -0.0002675987, 0.04013824, -0.04905128 ],
+						[ 31, -0.0001578675, 0.0185318, -0.02641869 ],
+						[ 80, 9.607573e-06, -0.003005981, 0.01378441 ],
+						[ 94, -1.904912e-05, 0.03881073, -0.03907967 ],
+						[ 1680, -0.0423286, -0.03217316, -0.00280571 ],
+						[ 2644, -0.03794539, 0.08200073, -0.05808735 ],
+						[ 2645, 0.01571774, -0.01279449, 0.04519749 ],
+						[ 3009, -0.0002396971, 0.08182526, -0.0560627 ],
+						[ 3010, -0.0006886721, -0.00377655, 0.04324818 ],
+						[ 3011, -0.0001271713, -0.06171417, -0.08036518 ],
+						[ 3012, -0.03749931, -0.01258087, -0.03755188 ],
+						[ 3021, 0.007433236, -0.0162735, -0.01639271 ],
+						[ 3022, 0.08410338, -0.008964539, -0.03072453 ],
+						[ 5315, -0.0006197005, -0.08638, -0.1208925 ],
+						[ 5316, -0.01973146, -0.06369781, 0.1149483 ],
+						[ 5317, -0.0008676353, -0.05446625, 0.2106323 ],
+						[ 5318, 0.0489251, 0.02032471, 0.00978756 ],
+						[ 5319, 0.05838344, 0.008865356, 0.09109116 ],
+						[ 7866, 0.04188395, -0.03253174, -0.002913475 ],
+						[ 8830, 0.0374285, 0.0817337, -0.05802822 ],
+						[ 9187, -0.002835631, -0.005737305, 0.038764 ],
+						[ 9188, 0.0381442, -0.01165009, -0.03786564 ],
+						[ 9197, -0.008861959, -0.01663971, -0.01771545 ],
+						[ 9198, -0.08687431, 0.0009231567, -0.04043579 ],
+						[ 11443, -0.03772748, -0.02611542, 0.05700874 ],
+						[ 11444, -0.06066293, 0.001197815, -0.01736164 ],
+						[ 11445, -0.1043999, -0.01117706, 0.02392673 ]
+					]
+				},
+				"hd_url" : "/data/Daz%203D/Genesis%208/Male%208_1/Morphs/Daz%203D/Michael%208_1/MCMMichael8_1_Navel_HDLv4.dhdm"
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "MCMMichael8_1_Navel_HDLv4-1",
+				"url" : "#MCMMichael8_1_Navel_HDLv4"
+			}
+		]
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%209/Genesis%209%20Mouth/Morphs/Daz%203D/Victoria%209/Victoria9_head_bs_Head_HD4.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "0.0",
+		"modified" : "2022-02-17T20:51:57Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Victoria9_head_bs_Head_HD4",
+			"name" : "Victoria9_head_bs_Head_HD4",
+			"parent" : "/data/Daz%203D/Genesis%209/Genesis%209%20Mouth/Genesis9Mouth.dsf#Genesis9Mouth-1",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 0.4980392, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Victoria9_head_bs_Head_HD4",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Head",
+			"group" : "/People/Feminine/Read World",
+			"morph" : {
+				"vertex_count" : 5079,
+				"deltas" : {
+					"count" : 0,
+					"values" : [
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Victoria9_head_bs_Head_HD4-1",
+				"url" : "#Victoria9_head_bs_Head_HD4"
+			}
+		]
+	}
+}

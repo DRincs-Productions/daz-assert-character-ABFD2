@@ -1,0 +1,435 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Victoria%209/Victoria9_facs_ctrl_Flirting.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2022-10-15T05:52:55Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Victoria9_facs_ctrl_Flirting",
+			"name" : "Victoria9_facs_ctrl_Flirting",
+			"parent" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#Genesis9",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 0.4980392, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Victoria9_facs_ctrl_Flirting",
+				"label" : "Victoria9_facs_ctrl_Flirting",
+				"visible" : false,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Hidden/People/Victoria 9/CTRL",
+			"formulas" : [
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_ctrl_TongueUp.dsf#facs_ctrl_TongueUp?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.141791 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_ctrl_TongueTipBend.dsf#facs_ctrl_TongueTipBend?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.641791 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_ctrl_TongueLeft.dsf#facs_ctrl_TongueLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.4141791 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_ctrl_NasalFlare.dsf#facs_ctrl_NasalFlare?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.1141791 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_ctrl_MouthStretch.dsf#facs_ctrl_MouthStretch?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.09324324 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_ctrl_MouthPucker.dsf#facs_ctrl_MouthPucker?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.2569498 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_ctrl_MouthFunnel.dsf#facs_ctrl_MouthFunnel?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.1392278 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_ctrl_MouthForward-BackUpperLeft.dsf#facs_ctrl_MouthForward-BackUpperLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.1196911 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_ctrl_MouthForward-BackLowerLeft.dsf#facs_ctrl_MouthForward-BackLowerLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.269305 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_ctrl_MouthDimple.dsf#facs_ctrl_MouthDimple?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.1081081 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_ctrl_JawLeft-Right.dsf#facs_ctrl_JawLeft-Right?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.1641791 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_ctrl_EyeWide.dsf#facs_ctrl_EyeWide?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.107529 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_ctrl_EyeSquint.dsf#facs_ctrl_EyesSquint?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.0799228 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_TongueTipNarrow.dsf#facs_bs_TongueTipNarrow?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_TongueOut.dsf#facs_bs_TongueOut?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.2201492 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACSExpressions/facs_ctrl_Flirting.dsf#facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Victoria%209/Victoria9_head_bs_Head.dsf#Victoria9_head_bs_Head?value" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_ctrl_MouthSmile.dsf#facs_ctrl_MouthSmile?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.3455598 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_NoseSneerLeft.dsf#facs_bs_NoseSneerLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.1052239 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_NasalStretchRight.dsf#facs_bs_NasalStretchRight?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.1791045 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthUpperUpLeft.dsf#facs_bs_MouthUpperUpLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.1395753 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthUp-DownMiddleUpper.dsf#facs_bs_MouthUp-DownMiddleUpper?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.4285714 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthUp-DownMiddleLower.dsf#facs_bs_MouthUp-DownMiddleLower?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.1274132 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthSmileWidenLeft.dsf#facs_bs_MouthSmileWidenLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.5637066 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthSmileLeft.dsf#facs_bs_MouthSmileLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.02146718 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthShrugUpperLeft.dsf#facs_bs_MouthShrugUpperLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.1158301 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthPurseUpperRight.dsf#facs_bs_MouthPurseUpperRight?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.1990348 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthPurseUpperLeft.dsf#facs_bs_MouthPurseUpperLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.1681467 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthPurseLowerRight.dsf#facs_bs_MouthPurseLowerRight?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.1835907 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthPurseLowerLeft.dsf#facs_bs_MouthPurseLowerLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.1565637 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthFunnelLowerLeft.dsf#facs_bs_MouthFunnelLowerLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.1621622 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthForward-BackMiddleUpper.dsf#facs_bs_MouthForward-BackMiddleUpper?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.7760618 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthForward-BackMiddleLower.dsf#facs_bs_MouthForward-BackMiddleLower?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.5984556 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthCornerTightnessUpperLeft.dsf#facs_bs_MouthCornerTightnessUpperLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.001351386 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthCornerTightnessLowerRight.dsf#facs_bs_MouthCornerTightnessLowerRight?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.5135136 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthCornerTightnessLowerLeft.dsf#facs_bs_MouthCornerTightnessLowerLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.1583011 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthCornerMoveUp-DownRight.dsf#facs_bs_MouthCornerMoveUp-DownRight?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.1583012 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthCornerMoveUp-DownLeft.dsf#facs_bs_MouthCornerMoveUp-DownLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.09652507 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthCornerMoveSide-SideRight.dsf#facs_bs_MouthCornerMoveSide-SideRight?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.1969112 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthCornerMoveSide-SideLeft.dsf#facs_bs_MouthCornerMoveSide-SideLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.2586873 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthCornerMoveFwd-BackRight.dsf#facs_bs_MouthCornerMoveFwd-BackRight?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.1119691 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_MouthCornerMoveFwd-BackLeft.dsf#facs_bs_MouthCornerMoveFwd-BackLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.5675676 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_JawOpen.dsf#facs_bs_JawOpen?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.341791 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_CheekSquintRight.dsf#facs_bs_CheekSquintRight?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.0619403 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_CheekSquintLeft.dsf#facs_bs_CheekSquintLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : 0.01716417 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_BrowOuterUpRight.dsf#facs_BrowOuterUpRight?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.1201493 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_BrowInnerUpRight.dsf#facs_bs_BrowInnerUpRight?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.1238806 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS/facs_bs_BrowInnerUpLeft.dsf#facs_bs_BrowInnerUpLeft?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#Victoria9_facs_ctrl_Flirting?value" },
+						{ "op" : "push", "val" : -0.4447761 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Victoria9_facs_ctrl_Flirting-1",
+				"url" : "#Victoria9_facs_ctrl_Flirting"
+			}
+		]
+	}
+}

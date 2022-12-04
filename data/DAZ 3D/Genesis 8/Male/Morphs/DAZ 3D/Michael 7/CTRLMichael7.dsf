@@ -1,0 +1,76 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Michael%207/CTRLMichael7.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Gravity Studios",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-12-18T22:50:54Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLMichael7",
+			"name" : "CTRLMichael7",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Genesis8Male",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/DAZ%203D/Genesis%208/Male/Morphs/Daz%203D/Michael%207/CTRLMichael7.png",
+				"colors" : [ [ 0.2196078, 0.3019608, 0.3882353 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRLMichael7",
+				"label" : "Michael 7",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/People/Real World",
+			"formulas" : [
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Genesis8Male?scale/general",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#CTRLMichael7?value" },
+						{ "op" : "push", "val" : 0.01999998 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Michael%207/FHMMichael7.dsf#FHMMichael7_Rescale?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#CTRLMichael7?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Michael%207/FBMMichael7.dsf#FBMMichael7_CageNoshoulder?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#CTRLMichael7?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLMichael7-1",
+				"url" : "#CTRLMichael7"
+			}
+		]
+	}
+}

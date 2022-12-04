@@ -1,0 +1,136 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Male/Materials/Michael%207/Iray/Michael%207%20Normal%20Maps%20On.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "support@daz3d.com",
+			"website" : "http://www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2015-05-28T19:03:21Z"
+	},
+	"image_library" : [
+		{
+			"id" : "Michael7G8_Arms_NM_1004.tif-1",
+			"name" : "Michael7G8_Arms_NM_1004.tif",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Michael7/Michael7G8_Arms_NM_1004.tif",
+					"label" : "Michael7G8_Arms_NM_1004.tif"
+				}
+			]
+		},
+		{
+			"id" : "Michael7G8_Face_NM_1001.tif-3",
+			"name" : "Michael7G8_Face_NM_1001.tif",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Michael7/Michael7G8_Face_NM_1001.tif",
+					"label" : "Michael7G8_Face_NM_1001.tif"
+				}
+			]
+		},
+		{
+			"id" : "Michael7G8_Legs_NM_1003.tif-1",
+			"name" : "Michael7G8_Legs_NM_1003.tif",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Michael7/Michael7G8_Legs_NM_1003.tif",
+					"label" : "Michael7G8_Legs_NM_1003.tif"
+				}
+			]
+		},
+		{
+			"id" : "Michael7G8_Torso_NM_1002.tif",
+			"name" : "Michael7G8_Torso_NM_1002.tif",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Michael7/Michael7G8_Torso_NM_1002.tif",
+					"label" : "Michael7G8_Torso_NM_1002.tif"
+				}
+			]
+		}
+	],
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Normal%20Map/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Michael7/Michael7G8_Arms_NM_1004.tif" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Ears:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Ears:?extra/studio_material_channels/channels/Normal%20Map/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Michael7/Michael7G8_Face_NM_1001.tif" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/EyeSocket:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/EyeSocket:?extra/studio_material_channels/channels/Normal%20Map/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Michael7/Michael7G8_Face_NM_1001.tif" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Normal%20Map/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Michael7/Michael7G8_Face_NM_1001.tif" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fingernails:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fingernails:?extra/studio_material_channels/channels/Normal%20Map/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Michael7/Michael7G8_Arms_NM_1004.tif" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Normal%20Map/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Michael7/Michael7G8_Legs_NM_1003.tif" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Normal%20Map/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Michael7/Michael7G8_Face_NM_1001.tif" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Toenails:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Toenails:?extra/studio_material_channels/channels/Normal%20Map/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Michael7/Michael7G8_Legs_NM_1003.tif" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Torso:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Torso:?extra/studio_material_channels/channels/Normal%20Map/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/DAZ/Characters/Genesis8/Michael7/Michael7G8_Torso_NM_1002.tif" ] ]
+			}
+		]
+	}
+}

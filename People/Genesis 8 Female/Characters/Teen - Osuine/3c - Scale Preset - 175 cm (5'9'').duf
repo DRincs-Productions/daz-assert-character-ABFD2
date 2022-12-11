@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Sangriart/Osuine/Scale%20Preset%20-%20175%20cm%20%285%277%27%27%29.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "Sangriart",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-05-29T15:32:42Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#Osuine%20Scale:?value/value",
+				"keys" : [ [ 0, 0.2 ] ]
+			}
+		]
+	}
+}

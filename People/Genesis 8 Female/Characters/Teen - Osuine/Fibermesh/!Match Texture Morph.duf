@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Sangriart/Osuine/Fibermesh/%21Match%20Texture%20Morph.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "Sangriart",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-05-24T16:18:36Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#Osuine%20Texture%20Match:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			}
+		]
+	}
+}

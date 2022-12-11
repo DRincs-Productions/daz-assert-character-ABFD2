@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Sangriart/Osuine/Eyelash%20Shape.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "Sangriart",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-05-23T17:03:58Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#Osuine%20Lashes:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			}
+		]
+	}
+}

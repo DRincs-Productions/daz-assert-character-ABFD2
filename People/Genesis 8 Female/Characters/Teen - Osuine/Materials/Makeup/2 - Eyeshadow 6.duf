@@ -1,0 +1,186 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Sangriart/Osuine/Materials/Makeup/Eyeshadow%206.duf",
+		"type" : "preset_layered_image",
+		"contributor" : {
+			"author" : "Sangriart",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-05-24T19:36:15Z"
+	},
+	"image_library" : [
+		{
+			"id" : "Osuine_Face_NB 3",
+			"name" : "Osuine_Face_NB 3",
+			"map_size" : [ 4096, 4096 ],
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/textures/Sangriart/Osuine/Osuine_Face_NB.png",
+					"label" : "Osuine_Face_NB.png",
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend"
+				},
+				{
+					"label" : "New Layer",
+					"color" : [ 0.3372549, 0.1372549, 0 ],
+					"transparency" : 0.65,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend",
+					"mask" : {
+						"url" : "/Runtime/textures/Sangriart/Osuine/EyeShadowMask.jpg",
+						"label" : "Mask",
+						"color" : [ 1, 1, 1 ],
+						"transparency" : 1,
+						"invert" : false,
+						"rotation" : 0,
+						"xmirror" : false,
+						"ymirror" : false,
+						"xscale" : 1,
+						"yscale" : 1,
+						"xoffset" : 0,
+						"yoffset" : 0
+					}
+				}
+			]
+		},
+		{
+			"id" : "Osuine_Face_Sub_NB 2",
+			"name" : "Osuine_Face_Sub_NB 2",
+			"map_size" : [ 4096, 4096 ],
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/textures/Sangriart/Osuine/Osuine_Face_Sub_NB.png",
+					"label" : "Osuine_Face_Sub_NB.png",
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend"
+				},
+				{
+					"label" : "New Layer",
+					"color" : [ 0.2901961, 0.1215686, 0 ],
+					"transparency" : 0.75,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "alpha_blend",
+					"mask" : {
+						"url" : "/Runtime/textures/Sangriart/Osuine/EyeShadowMask.jpg",
+						"label" : "Mask",
+						"color" : [ 1, 1, 1 ],
+						"transparency" : 1,
+						"invert" : false,
+						"rotation" : 0,
+						"xmirror" : false,
+						"ymirror" : false,
+						"xscale" : 1,
+						"yscale" : 1,
+						"xoffset" : 0,
+						"yoffset" : 0
+					}
+				}
+			]
+		}
+	],
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/Face:?diffuse/image",
+				"keys" : [ [ 0, "#Osuine_Face_NB%203" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?diffuse/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?diffuse/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?diffuse/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?diffuse/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?diffuse/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?diffuse/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?diffuse/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Translucency%20Color/image",
+				"keys" : [ [ 0, "#Osuine_Face_Sub_NB%202" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Sangriart/Osuine/%21%21Full%20Preset.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "Sangriart",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-05-27T16:46:14Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#Osuine%20Body:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#Osuine%20Scale:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#Osuine%20Head:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#Osuine%20Head%20Asymmetry:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			}
+		]
+	}
+}

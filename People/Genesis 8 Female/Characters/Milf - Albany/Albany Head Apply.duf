@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Mousso/Albany/Albany%20Head%20Apply.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "Mousso",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-08-01T23:51:35Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#Albany%20Head:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			}
+		]
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/mousso/Shangrila/03%20Remove%20Nails.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "mousso",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-12T16:06:28Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#Mousso%20Nails:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

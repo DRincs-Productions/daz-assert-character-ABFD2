@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Mousso/Ekaterina/Ekaterina%20Nipples%20Apply.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "Mousso",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-05-28T16:15:13Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#PBMNipples:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			}
+		]
+	}
+}

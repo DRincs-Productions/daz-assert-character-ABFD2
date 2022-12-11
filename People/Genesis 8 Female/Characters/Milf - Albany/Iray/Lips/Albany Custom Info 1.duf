@@ -1,0 +1,16 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/mousso/Desiree/Iray/Makeup/1.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "mousso",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-01-28T18:06:54Z"
+	},
+	"scene" : {
+	}
+}

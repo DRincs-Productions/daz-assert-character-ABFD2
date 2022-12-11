@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Mousso/Albany/Albany%20Body%20HD%20REM.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "Mousso",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-08-04T20:58:21Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#Albany%20Body%20HD%20Details:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

@@ -1,0 +1,491 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Mousso/MSO%20Saffire/Iray%20Uber/Lips/MSO%20Saffire%20Lips%20Orchid.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "Mousso",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2022-05-28T12:57:18Z"
+	},
+	"image_library" : [
+		{
+			"id" : "Saffire Lips Orchid.jpg-1",
+			"name" : "Saffire Lips Orchid.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Mousso/Saffire/Saffire%20Lips%20Orchid.jpg",
+					"label" : "Saffire Lips Orchid.jpg"
+				}
+			]
+		}
+	],
+	"material_library" : [
+		{
+			"id" : "Lips",
+			"diffuse" : {
+				"channel" : {
+					"id" : "diffuse",
+					"type" : "float_color",
+					"name" : "Diffuse Color",
+					"label" : "Base Color",
+					"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"step_size" : 1,
+					"default_image_gamma" : 0,
+					"mappable" : true
+				},
+				"group" : "/Base/Diffuse/Reflection",
+				"presentation" : {
+					"type" : "",
+					"label" : "",
+					"description" : "",
+					"icon_large" : "",
+					"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+				}
+			},
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Metallic Weight",
+								"type" : "float",
+								"label" : "Metallicity",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Reflection",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Diffuse Weight",
+								"type" : "float",
+								"label" : "Diffuse Weight",
+								"visible" : false,
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Reflection",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Diffuse Strength",
+								"type" : "float",
+								"label" : "Diffuse Strength",
+								"visible" : false,
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Reflection",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Diffuse Roughness",
+								"type" : "float",
+								"label" : "Diffuse Roughness",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Reflection",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Translucency Weight",
+								"type" : "float",
+								"label" : "Translucency Weight",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Translucency",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Translucency Color",
+								"type" : "float_color",
+								"label" : "Translucency Color",
+								"value" : [ 1, 1, 1 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Translucency",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"materials" : [
+			{
+				"url" : "#Lips",
+				"groups" : [ "Lips" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					},
+					{
+						"type" : "item_post_load_script",
+						"name" : "Mousso_Lips_shine",
+						"script" : "Lips_Shine.duf",
+						"settings" : {
+							"material" : "Iray Uber"
+						}
+					},
+					{
+						"type" : "item_post_load_script",
+						"name" : "Soto__Dolb__Genesis8Male__Dolb Hair All",
+						"script" : "data/Soto/Dolb/Genesis8Male/Dolb Hair All.duf",
+						"settings" : {
+							"material" : "Iray Uber"
+						}
+					},
+					{
+						"type" : "item_post_load_script",
+						"name" : "Mousso_lips_shine",
+						"script" : "Lips_Shine.duf",
+						"settings" : {
+							"material" : "Iray Uber"
+						}
+					},
+					{
+						"type" : "studio/element_data/simple_data",
+						"name" : "OctaneRender_item",
+						"settings" : {
+							"ouid" : "{c53f7d8a-80e8-437e-8ffd-8ab3c431a336}"
+						}
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?diffuse/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Mousso/Saffire/Saffire%20Lips%20Orchid.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?diffuse/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?diffuse/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?diffuse/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?diffuse/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?diffuse/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?diffuse/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?diffuse/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Mousso/Saffire/Saffire%20Lips%20Orchid.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

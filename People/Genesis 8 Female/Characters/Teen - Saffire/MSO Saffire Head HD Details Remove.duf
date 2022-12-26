@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Mousso/Bella/MSO%20Bella%20HD%20Details%20Head%20Remove.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "Mousso",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-02-02T11:30:32Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#MSO%20Bella%20Head%20HD%20Details:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

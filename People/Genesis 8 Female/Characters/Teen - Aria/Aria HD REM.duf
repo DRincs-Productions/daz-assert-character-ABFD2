@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208/Characters/P3Design/Aria/Aria%20HD%20REM.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "P3Design",
+			"email" : "",
+			"website" : "www.daz3d.com/p3design"
+		},
+		"revision" : "1.0",
+		"modified" : "2020"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#CTRLP3DAriaHDLv4:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

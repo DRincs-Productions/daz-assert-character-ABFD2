@@ -1,0 +1,76 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/P3Design/Aria/CTRLP3DAria.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "P3Design",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "0.0",
+		"modified" : "2019"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLP3DAria",
+			"name" : "CTRLP3DAria",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Genesis8Female",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/DAZ%203D/Genesis%208/Female/Morphs/P3Design/Aria/CTRLP3DAria.png",
+				"colors" : [ [ 0, 0.5019608, 0.5019608 ], [ 1, 1, 1] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "P3D Aria",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/People/Real World",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/P3Design/Aria/FHMP3DAria.dsf#FHMP3DAria?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#CTRLP3DAria?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/P3Design/Aria/FBMP3DAria.dsf#FBMP3DAria?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#CTRLP3DAria?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : -1,
+				"deltas" : {
+					"count" : 0,
+					"values" : [
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLP3DAria-1",
+				"url" : "#CTRLP3DAria"
+			}
+		]
+	}
+}

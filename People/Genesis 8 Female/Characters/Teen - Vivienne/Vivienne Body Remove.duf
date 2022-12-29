@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Cherubit/Vivienne/Vivienne%20Body%20Remove.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "taemimun",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-11-23T04:08:53Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#CTRL_VivienneBody:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

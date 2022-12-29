@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208.1%20Female/Characters/P3Design/Paris%208_1/Paris%20HD%20Details%20Lv4%20REM.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "P3Design",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#CTRLP3DParisHDLv4:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

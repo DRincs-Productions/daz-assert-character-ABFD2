@@ -1,0 +1,197 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208.1%20Female/Characters/P3Design/Paris/Materials/Iray%20PBR%20Shader/Face/Paris%20Glitter%20Overlay.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "P3Design",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-03-29T13:36:29Z"
+	},
+	"image_library" : [
+		{
+			"id" : "P3DParisFace_MetallicOverlay.jpg",
+			"name" : "P3DParisFace_MetallicOverlay.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/%21P3D/Paris/P3DParisFace_MetallicOverlay.jpg",
+					"label" : "P3DParisFace_MetallicOverlay.jpg"
+				}
+			]
+		}
+	],
+	"scene" : {
+		"materials" : [
+			{
+				"url" : "/data/DAZ%203D/Built-in%20Content/Daz%20Iray%20PBRSkin/PBRSkin.dsf#PBRSkin",
+				"groups" : [ "Face" ],
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Color",
+									"type" : "color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Roughness",
+									"type" : "float"
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Enable/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/%21P3D/Paris/P3DParisFace_MetallicOverlay.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/value",
+				"keys" : [ [ 0, [ 0.8235294, 0.6470588, 0.3960784 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Size/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Density/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Metallic%20Flakes%20Bump%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			}
+		]
+	}
+}

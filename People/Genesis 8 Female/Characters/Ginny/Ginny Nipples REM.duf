@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Mousso/Botan/Botan%20Nipples%20REM.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "Mousso",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-07-11T21:49:32Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#PBMNipples:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Mousso/Ginny/Ginny%20Lashes%20REM.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "Mousso",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-11-30T22:29:56Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#MSO%20Ginny%20Eyelashes:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

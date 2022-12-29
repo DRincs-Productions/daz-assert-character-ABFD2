@@ -1,0 +1,59 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/Mousso/Ginny/MSO%20Ginny%20Eyelashes.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Mousso",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "0.0",
+		"modified" : "2020-12-09T07:23:57Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "MSO Ginny Eyelashes",
+			"name" : "MSO Ginny Eyelashes",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Genesis8Female",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "MSO Ginny Eyelashes",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Eyes",
+			"group" : "/Real World",
+			"morph" : {
+				"vertex_count" : -1,
+				"deltas" : {
+					"count" : 0,
+					"values" : [
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "MSO Ginny Eyelashes-1",
+				"url" : "#MSO%20Ginny%20Eyelashes"
+			}
+		]
+	}
+}

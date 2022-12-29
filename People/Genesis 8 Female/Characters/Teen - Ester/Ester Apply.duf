@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Saiyaness/Ester/Ester%20Apply.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2019-02-01T16:39:57Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#CTRLEster:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			}
+		]
+	}
+}

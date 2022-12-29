@@ -1,0 +1,76 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/Saiyaness/Ester%20for%20Genesis%208%20Female/CTRLEster.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "0.0",
+		"modified" : "2019-01-31T17:46:40Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLEster",
+			"name" : "CTRLEster",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Genesis8Female",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/DAZ%203D/Genesis%208/Female/Morphs/Saiyaness/Ester%20for%20Genesis%208%20Female/Ester.png",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Ester",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/People/Real World",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Saiyaness/Ester%20for%20Genesis%208%20Female/Ester%20Head.dsf#Ester%20Head?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#CTRLEster?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Saiyaness/Ester%20for%20Genesis%208%20Female/Ester%20Body.dsf#Ester%20Body?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#CTRLEster?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : -1,
+				"deltas" : {
+					"count" : 0,
+					"values" : [
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLEster-1",
+				"url" : "#CTRLEster"
+			}
+		]
+	}
+}

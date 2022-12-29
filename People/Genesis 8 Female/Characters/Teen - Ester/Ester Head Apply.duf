@@ -1,0 +1,358 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Characters/Saiyaness/Ester/Ester%20Head%20Apply.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "Saiyaness",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2019-01-04T06:40:45Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#PHMEarsDepth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEarsHeight:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMBrowDepth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMBrowLateralProminenceHD:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMBrowSuperciliaryArchHD:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMBrowWidth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMCheeksDepth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMCheeksSink:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMCheeksSlackHD:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMChinCleftHD:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMChinCreaseFill:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMChinCreaseHD:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMChinDepth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMChinWidth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMJawAngle:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMJawCornerWidth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMJawCurve:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMJawDefine:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMJawHeight:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMJawlineDepth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMUnderMouthSlackHD:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyelashesCurl:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyelashesLengthLower:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyelashesLengthUpper:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyelidsFoldDown:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyelidsLowerHeight:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyelidsSmooth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyelidsUpperHeight:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyesAlmondOuter:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyesAngledInner:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyesAngledOuter:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyesCorneaBulge:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyesDepth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyesHeight:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyesPuffyLower:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyesPuffyUpper:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMEyesSize:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#Iris%20Concave:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMLipDepthLower:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMLipDepthUpper:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMLipTopPeak:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMLipUpperCurves:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMLipUpperSize:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMLipWidthLower:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMLipWidthUpper:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMLipsHeart:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMLipsSquare:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMLipsThin:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMMouthDepth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMMouthSize:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMMouthWidth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseBridgeDepth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseBridgeHeight:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseBridgeSkew:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseBridgeSlope:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseBridgeWidth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseDepth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseFleshSize:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseHeight:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNosePinch:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseRidge:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseRidgeWidth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseSeptumDepth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseSeptumHeight:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseSeptumWidth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseTipDepth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseTipHeight:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseTipRound:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseTipWidth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNoseWidth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNostrilWingHeight:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMNostrilWingWidth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMPhiltrumAngle:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMPhiltrumWidth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMFaceCenterDepth:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMFaceFlat:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMFaceRound:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMFaceSquare:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMFaceYoung:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMForeheadFlat:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMForeheadRound:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PHMForeheadThin:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#PBMTrapsSize:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#Ester%20Head:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#Ester%20Head%20Custom:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

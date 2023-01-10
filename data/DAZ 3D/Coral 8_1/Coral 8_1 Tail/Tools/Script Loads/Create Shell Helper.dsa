@@ -1,0 +1,440 @@
+// DAZ Studio version 4.6.1.17 filetype DAZ Script
+/**********************************************************************
+	File: Create Shell Helper.dsa
+
+	Copyright (C) 2002-2013 DAZ 3D, Inc. All Rights Reserved.
+
+	This file is part of the DAZ Script Documentation.
+
+	This file may be used only in accordance with the DAZ Script 
+	license provided with the DAZ Script Documentation.
+
+	The contents of this file may not be disclosed to third parties, 
+	copied or duplicated in any form, in whole or in part, without the 
+	prior written permission of DAZ 3D, Inc, except as explicitly
+	allowed in the DAZ Script license.
+
+	See http://www.daz3d.com to contact DAZ 3D, Inc or for more 
+	information about DAZ Script.
+**********************************************************************/
+
+/*********************************************************************/
+// Define common variables
+var g_sAddSuffix = "NodeAdd";
+var g_sRemoveSuffix = "NodeRemove";
+
+/*********************************************************************/
+// DzNode : This function returns the shell node for the given figure.
+// If no shell exists by the given name the shell is created and returned.
+// null is returned on error.
+function findOrCreateShell( oSkeleton, sName, nOffset, bCreate ) {
+	// Get the child node with the name we want
+	var oNode = oSkeleton.findNodeChild( sName );
+	// If we have a node and it isn't a shell
+	if( oNode && !oNode.inherits("DzGeometryShellNode") ){
+		// We're done...
+		return null;
+	// If we have a node and it is a shell
+	} else if( oNode ){
+		// Return the node
+		return oNode;
+	// If we are only being used to find
+	} else if( !bCreate ){
+		// We're done...
+		return null;
+	}
+	
+	// Create a Geometry Shell node
+	oNode = new DzGeometryShellNode();
+	
+	// Set the name
+	oNode.setName( sName );
+	
+	// Get a unique scene label
+	var sLabel = Scene.getUniqueTopLevelLabel( sName );
+	// Set the label
+	oNode.setLabel( sLabel );
+	
+	// Get the target property
+	var oProperty = oNode.getShellNodeControl();
+	// Set the target
+	oProperty.setValue( oSkeleton );
+	
+	// Keep the user from selecting the shell in the viewport,
+	// as the shell interferes with posing
+	oNode.setSelectable( false );
+	
+	// Set the shell node's 'rigging' to match target node's 'rigging'
+	oNode.setOrigin( oSkeleton.getOrigin(), true );
+	oNode.setEndPoint( oSkeleton.getEndPoint(), true );
+	oNode.setOrientation( oSkeleton.getOrientation(), true );
+	
+	// Add the shell to the scene
+	Scene.addNode( oNode );
+	// Parent the shell to the skeleton
+	oSkeleton.addNodeChild( oNode, false );
+	
+	// Get the object for the node
+	var oObject = oNode.getObject();
+	// Get the push modifier
+	var oPushModifier = (oObject ? oObject.findModifier("Offset") : null);
+	// If we have a push modifier
+	if( oPushModifier ){
+		// Get the modifier's property
+		oProperty = oPushModifier.getValueChannel();
+		// Set the value
+		oProperty.setValue( nOffset );
+	}
+	
+	// Return the shell node
+	return oNode;
+};
+
+/*********************************************************************/
+// void : creates data item and call backs if needed
+function createCallBacks( oOwner, oItem, oShellNode ) {
+	// Define the callback name
+	var sCallBackName = "CreatureCreatorShellHelperCallBackCreated";
+	// Get the callback data item
+	var oCallBackItem = oOwner.findDataItem( sCallBackName );
+	// If we don't have a callback
+	if( !oCallBackItem ){
+		// Create the data item; non-persistent
+		oCallBackItem = new DzSimpleElementData( sCallBackName, false );
+		// Add the data item to the node; so we only do it once
+		oOwner.addDataItem( oCallBackItem );
+		
+		// Get the data item settings
+		var oSettings = oCallBackItem.getSettings();		
+		
+		// Create unique names for callbacks
+		var sUuid = App.createUuid();
+		var sAddName = String("%1_%2_%3").arg( oOwner.name ).arg( sUuid ).arg( g_sAddSuffix );
+		var sRemoveName = String("%1_%2_%3").arg( oOwner.name ).arg( sUuid ).arg( g_sRemoveSuffix );
+		
+		// Record the names in a temporary data items
+		oSettings.setStringValue( g_sAddSuffix, sAddName );
+		oSettings.setStringValue( g_sRemoveSuffix, sRemoveName );
+		
+		// Get the filename of the current script
+		var sScriptFileName = getScriptFileName();
+		// If the filename is empty; likely running form Script IDE
+		if( sScriptFileName.isEmpty() ){
+			// Get the content manager
+			var oContentMgr = App.getContentMgr();
+			// Get the absolute path of the post load file
+			sScriptFileName = oContentMgr.getAbsolutePath( oItem.getScriptFilePath(), true );
+			// If we have a post load file
+			if( !sScriptFileName.isEmpty() ){
+				// We're done...
+				return;
+			}
+		}
+		
+		// Get the callback manager
+		var oCallBackMgr = App.getCallBackMgr();
+		
+		// Create the add callback
+		var oAddCallBack = oCallBackMgr.createCallBack( sAddName );
+		// Assign its script
+		oAddCallBack.setScript( sScriptFileName, false );
+		// Establish a connection to when the owner is being added
+		oAddCallBack.setConnection( oOwner, "added()", true );
+		
+		// Create the remove callback
+		var oRemoveCallBack = oCallBackMgr.createCallBack( sRemoveName );
+		// Assign its script
+		oRemoveCallBack.setScript( sScriptFileName, false );
+		// Establish a connection to when the owner about to be removed
+		oRemoveCallBack.setConnection( oOwner, "aboutToBeRemoved()", true );
+
+		// If the version is 4.6.2.30 or earlier
+		if( App.version64 <= 0x400060002001E ){
+			// Get the parent of the shell
+			var oParentOfShell = oShellNode.getNodeParent();
+			// Get the target of the shell
+			var oShellNodeProperty = oShellNode.getShellNodeControl();
+			var oShellParent = oShellNode.getShellNodeControl().getValue();
+			// If the parent of the shell is the same as the target for the shell
+			if( oParentOfShell && (oParentOfShell == oShellParent) ){
+				// Fix the node connection bug with shells by unparenting and reparenting
+				oParentOfShell.removeNodeChild( oShellNode, false );
+				oParentOfShell.addNodeChild( oShellNode, false );
+			}
+		}
+	}		
+}
+
+/*********************************************************************/
+// Object : This function returns a "map" of surfaces on the shell to show
+function populateSurfaceVisibilityMap( aSurfaceNames, oMap ) {
+	// Iterate over the array of surface names
+	for( var i = 0; i < aSurfaceNames.length; i += 1 ){
+		// Set the value for the given surface in the map
+		oMap[ aSurfaceNames[i] ] = true;
+	}
+	
+	// Return the [modified] map
+	return oMap;
+};
+
+/*********************************************************************/
+// void : This function finds/creates a shell on the figure and then sets the visibility
+// of surface groups according to settings on graft items on the figure
+function begin( oItem, oCallBack, bIsSceneLoad ) {
+	// If we don't have a data item
+	if( !oItem ){
+		// We're done...
+		return;
+	}
+	
+	//If being executed by call back we need to skip self when setting up the list
+	var bIsRemoveRun = oCallBack ? oCallBack.name.endsWith( g_sRemoveSuffix ) : false;
+	
+	// Get the owner of the item
+	var oOwner = oItem.getOwner();
+	// If we don't have an owner, or the owner isn't a weight mapped figure, or the figure isn't a graft
+	if( !oOwner || !oOwner.inherits("DzFigure") || (!bIsRemoveRun && !oOwner.isGraftFollowing()) ){
+		// We're done...
+		return;
+	}
+	
+	
+	// Get the host figure
+	var oHostFigure = null;
+	// If were running because a graft was removed
+	if( bIsRemoveRun ){
+		// Get the owners parent
+		oHostFigure = oOwner.getNodeParent();
+		// If the owners parent is a skeleton
+		if( !oHostFigure.inherits("DzSkeleton") ){
+			// Get the skeleton
+			oHostFigure = oHostFigure.getSkeleton();
+		}
+	// If were running because a graft was added
+	} else {
+		// Get the owners follow target
+		oHostFigure = oOwner.getFollowTarget();
+	}
+	
+	// If we don't have a host figure, or the host figure isn't weight mapped
+	if( !oHostFigure || !oHostFigure.inherits("DzFigure") ){
+		// We're done...
+		return;
+	}
+	
+	// Define common key variables
+	var sShellNameKey = "shell_name";
+	var sVisibleSurfacesKey = "visible_surfaces";
+	var sShellIsWearableKey = "shell_is_wearable";
+	
+	// Get the settings for this post-load item
+	var oSettings = oItem.getSettings();
+	var sName = oSettings.getStringValue( sShellNameKey );
+	var nOffset = oSettings.getStringValue( "shell_offset" );	
+	var bShellIsWearable = oSettings.getBoolValue( sShellIsWearableKey );
+	
+	var sShellPostLoad = "";
+	// If were loading a wearable
+	if( bIsSceneLoad && bShellIsWearable ){
+		// Get the settings for the post-load item
+		sShellPostLoad = oSettings.getStringValue( "shell_post_load" );
+	}
+	
+	// If we're loading a scene
+	if( bIsSceneLoad && !bShellIsWearable ){
+		// If we don't have a callback
+		if( !oCallBack ){
+			// Find or create a shell
+			var oShellNode = findOrCreateShell( oHostFigure, sName, nOffset, false );
+			// Create the callbacks; the scene will set-up the properties
+			createCallBacks( oOwner, oItem, oShellNode );
+		}
+		
+		// We're done...
+		return;
+	}
+	
+	// Mark as not wearable; so it saves correctly to scene [subset]
+	oSettings.setBoolValue( sShellIsWearableKey, false );
+	
+	// Get or create a shell
+	var oShellNode = findOrCreateShell( oHostFigure, sName, nOffset, !bIsRemoveRun );
+	// If we don't have a shell and we're not running because a graft was removed
+	if( !oShellNode && !bIsRemoveRun ){
+		// We're done...
+		return;
+	}
+	
+	// Get the visible surface names
+	var aVisibleSurfaces = oSettings.getStringValue( sVisibleSurfacesKey ).split( "," );
+	
+	// Create a map
+	var oVisibilityMap = {};
+	
+	// If we're not running because a graft was removed
+	if( !bIsRemoveRun ){
+		// Populate the map with visibility values for given surfaces
+		oVisibilityMap = populateSurfaceVisibilityMap( aVisibleSurfaces, oVisibilityMap );
+	}
+	
+	// Create a map
+	var oShellNodeMap = {};
+	
+	// Populate the map with the visibility values for surfaces on a given shell
+	oShellNodeMap[ sName ] = {
+		"m_node" : oShellNode,
+		"m_visMap" : oVisibilityMap
+	};
+	
+	// Get the item name
+	var sItemName = oItem.name;
+	// Get the number of grafted figures
+	var nGraftFigures = oHostFigure.getNumGraftFigures();
+	// Iterate over the array of grafted figures
+	for( var i = 0; i < nGraftFigures; i += 1 ){
+		// Get the 'current' grafting figure
+		var oGraftFigure = oHostFigure.getGraftFigure(i);
+		
+		// If we're already handling the graft
+		if( pointersAreEqual( oGraftFigure, oOwner) ){
+			// Skip it...
+			continue;
+		}
+			
+		// Find our data item on the grafting figure
+		var oDataItem = oGraftFigure.findDataItem( sItemName );
+		// If our data item isn't found
+		if( !oDataItem ){
+			// Skip it...
+			continue;
+		}
+		
+		// Get the settings of the data item
+		oSettings = oDataItem.getSettings();
+		
+		// Get the shell name
+		var sShellName = oSettings.getStringValue( sShellNameKey );
+		// Get the item for the shell from the map
+		var oShellMapItem = oShellNodeMap[ sShellName ];
+		// If we don't have an item
+		if( !oShellMapItem ){
+			// Get the child node with our name
+			var oChildNode = oHostFigure.findNodeChild( sShellName );
+			// If we don't have a node or the node isn't a shell
+			if( !oChildNode || !oChildNode.inherits("DzGeometryShellNode") ){
+				// Skip it...
+				continue;
+			}
+			
+			// Initialize the map
+			oShellNodeMap[ sShellName ] = {
+				"m_node" : oChildNode,
+				"m_visMap" : {}
+			};
+			
+			// Set the 'current' item
+			oShellMapItem = oShellNodeMap[ sShellName ];
+		}
+		
+		// Get the visible surface names
+		aVisibleSurfaces = oSettings.getStringValue(sVisibleSurfacesKey).split(",");
+		// Populate the map with visibility values for given surfaces
+		oShellNodeMap[ sShellName ].m_visMap = populateSurfaceVisibilityMap( aVisibleSurfaces, oShellMapItem.m_visMap); 
+	}
+	
+	// Detect if the shell was actually set up
+	var bShellUsed = oShellNodeMap[sName]!=undefined;
+	
+	// Iterate over the items in the map
+	for( var sName in oShellNodeMap ){
+		// Get the item for the shell from the map
+		var oShellMapItem = oShellNodeMap[sName];
+		// Get the node from the item
+		var oCurShellNode = oShellMapItem.m_node;
+		
+		//no node, skip
+		if( !oCurShellNode ){
+			continue;
+		}
+		
+		// Get the visibility map from the item
+		oVisibilityMap = oShellMapItem.m_visMap;
+		
+		// Ensure that the shell is up to date so the values can be set correctly
+		oCurShellNode.update();
+		
+		// Get the property groups from the shell
+		var aPropertyGroups = oCurShellNode.getPropertyGroups();
+		// Get the group with the path we want
+		var oPropertyGroup = aPropertyGroups.findChild("Shell/Visibility/Surfaces");
+		// If we don't have a group
+		if( !oPropertyGroup ){
+			// Skip it...
+			continue;
+		}
+		
+		// Iterate over all of the properties in the group
+		for( var i = 0, n = oPropertyGroup.getNumProperties(); i < n; i += 1 ){
+			// Get the 'current' property
+			var oProperty = oPropertyGroup.getProperty(i);
+			// If the property is of the type we want and begins with the name we want
+			if( oProperty.inherits("DzBoolProperty") && oProperty.name.startsWith("material_group_") ){
+				// Get the value that the property should be set to
+				var bVal = oVisibilityMap[ oProperty.getLabel() ] ? true : false;
+				// Set the property
+				oProperty.setBoolValue( bVal );
+			}
+		}
+	}
+	
+	// If we have a post load file
+	if( !sShellPostLoad.isEmpty()  ){
+		// Get the content  manager
+		var oContentMgr = App.getContentMgr();
+		// Get the absolute path of the post load file
+		sShellPostLoad = oContentMgr.getAbsolutePath( sShellPostLoad, true );
+		// If we have a post load file
+		if( !sShellPostLoad.isEmpty() ){
+			// Load the file
+			oContentMgr.openFile( sShellPostLoad, true );
+		}
+	}
+	
+	// If we don't have a callback
+	if( !oCallBack ){
+		// Create the callbacks
+		createCallBacks( oOwner, oItem, oShellNode );
+	}
+};
+
+/*********************************************************************/
+// Declare working variables
+var oCallBack = null;
+var oItem = null;
+var bIsSceneLoad = false;
+
+// If we found the 'DataItem' global transient
+if( typeof(DataItem) != "undefined" ){
+	// Use the data from the global transient
+	oItem = DataItem;
+	// The data item is only around during the scene load
+	bIsSceneLoad = true;
+// If we found the 'CallBack' global transient
+} else if( typeof(CallBack) != "undefined" ) {
+	// Use the global transient
+	oCallBack = CallBack;
+	// Get the sender of the callback
+	var oNode = CallBack.getSender();
+	// Get the item from the node
+	oItem = oNode ? oNode.findDataItem( "CreatureCreatorShellHelper" ) : null;
+// Otherwise
+} else {
+	// Get the primary selection
+	var oNode = Scene.getPrimarySelection();
+	// Get the data item from the node
+	oItem = oNode ? oNode.findDataItem( "CreatureCreatorShellHelper" ) : null;
+}
+
+// Execute the script's main function
+begin( oItem, oCallBack, bIsSceneLoad );

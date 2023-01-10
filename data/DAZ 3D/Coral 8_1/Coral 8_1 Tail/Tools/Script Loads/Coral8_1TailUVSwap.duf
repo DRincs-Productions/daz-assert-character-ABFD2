@@ -1,0 +1,56 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Anatomy/Coral%208.1%20Tail/Materials/Iray/Coral%208.1%20Tail%20Any%20PBRSkin%20Mat.duf",
+		"type" : "preset_hierarchical_material",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2021-08-02T16:01:04Z"
+	},
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Genesis8_1Female",
+				"url" : "name://@selection/Genesis8_1Female:",
+				"geometries" : [
+					{
+						"id" : "Genesis81FemaleGeom",
+						"url" : "name://@selection#geometries/Genesis81FemaleGeom:"
+					}
+				]
+			},
+			{
+				"id" : "Coral_81_Tail_4715",
+				"url" : "name://@selection/Coral_81_Tail_4715:",
+				"parent" : "#Genesis8_1Female",
+				"geometries" : [
+					{
+						"id" : "geometry",
+						"url" : "name://@selection#geometries/geometry:"
+					}
+				]
+			},
+			{
+				"id" : "Coral 8.1 Tail Shell",
+				"url" : "name://@selection/Coral%208.1%20Tail%20Shell:",
+				"parent" : "#Genesis8_1Female",
+				"geometries" : [
+					{
+						"id" : "geometry-1",
+						"url" : "name://@selection#geometries/geometry:"
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "Coral_81_Tail_4715#materials/Tail:?uv_set",
+				"keys" : [ [ 0, "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/UV%20Sets/DAZ%203D/Base/TailBodyOverlap.dsf#TailBodyOverlap" ] ]
+			}
+		]
+	}
+}

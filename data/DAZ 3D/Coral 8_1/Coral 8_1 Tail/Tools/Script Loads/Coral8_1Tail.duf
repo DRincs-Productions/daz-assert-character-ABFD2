@@ -1,0 +1,2929 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Anatomy/Coral%208.1%20Tail/Coral%208.1%20Tail.duf",
+		"type" : "wearable",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2021-07-21T20:51:24Z"
+	},
+	"image_library" : [
+		{
+			"id" : "Coral8_1_BodyM_HALF_1003.jpg-3",
+			"name" : "Coral8_1_BodyM_HALF_1003.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodyM_HALF_1003.jpg",
+					"label" : "Coral8_1_BodyM_HALF_1003.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_BodyD_HALF_1003.jpg-3",
+			"name" : "Coral8_1_BodyD_HALF_1003.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodyD_HALF_1003.jpg",
+					"label" : "Coral8_1_BodyD_HALF_1003.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_BodySSS_HALF_1003.jpg-3",
+			"name" : "Coral8_1_BodySSS_HALF_1003.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodySSS_HALF_1003.jpg",
+					"label" : "Coral8_1_BodySSS_HALF_1003.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_BodyR_HALF_1003.jpg-3",
+			"name" : "Coral8_1_BodyR_HALF_1003.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodyR_HALF_1003.jpg",
+					"label" : "Coral8_1_BodyR_HALF_1003.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_BodyNM_HALF_1003.jpg-3",
+			"name" : "Coral8_1_BodyNM_HALF_1003.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodyNM_HALF_1003.jpg",
+					"label" : "Coral8_1_BodyNM_HALF_1003.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_BodyAO_HALF_1003.jpg-3",
+			"name" : "Coral8_1_BodyAO_HALF_1003.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodyAO_HALF_1003.jpg",
+					"label" : "Coral8_1_BodyAO_HALF_1003.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_MicroDetailNM.jpg-9",
+			"name" : "Coral8_1_MicroDetailNM.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_MicroDetailNM.jpg",
+					"label" : "Coral8_1_MicroDetailNM.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_MicroDetailR.jpg-9",
+			"name" : "Coral8_1_MicroDetailR.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_MicroDetailR.jpg",
+					"label" : "Coral8_1_MicroDetailR.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_TailM_1008.jpg-3",
+			"name" : "Coral8_1_TailM_1008.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_TailM_1008.jpg",
+					"label" : "Coral8_1_TailM_1008.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_TailD_1008.jpg-1",
+			"name" : "Coral8_1_TailD_1008.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_TailD_1008.jpg",
+					"label" : "Coral8_1_TailD_1008.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_TailSSS_1008.jpg-1",
+			"name" : "Coral8_1_TailSSS_1008.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_TailSSS_1008.jpg",
+					"label" : "Coral8_1_TailSSS_1008.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_TailR_1008.jpg-1",
+			"name" : "Coral8_1_TailR_1008.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_TailR_1008.jpg",
+					"label" : "Coral8_1_TailR_1008.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_TailNM_1008.jpg-1",
+			"name" : "Coral8_1_TailNM_1008.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_TailNM_1008.jpg",
+					"label" : "Coral8_1_TailNM_1008.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_TailAO_1008.jpg-1",
+			"name" : "Coral8_1_TailAO_1008.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_TailAO_1008.jpg",
+					"label" : "Coral8_1_TailAO_1008.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_Fins_Front_D_1009.jpg-1",
+			"name" : "Coral8_1_Fins_Front_D_1009.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Front_D_1009.jpg",
+					"label" : "Coral8_1_Fins_Front_D_1009.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_Fins_Front_SSS_1009.jpg-1",
+			"name" : "Coral8_1_Fins_Front_SSS_1009.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Front_SSS_1009.jpg",
+					"label" : "Coral8_1_Fins_Front_SSS_1009.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_Fins_Front_R_1009.jpg-1",
+			"name" : "Coral8_1_Fins_Front_R_1009.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Front_R_1009.jpg",
+					"label" : "Coral8_1_Fins_Front_R_1009.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_Fins_Front_NM_1009.jpg-1",
+			"name" : "Coral8_1_Fins_Front_NM_1009.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Front_NM_1009.jpg",
+					"label" : "Coral8_1_Fins_Front_NM_1009.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_Fins_Front_AO_1009.jpg-1",
+			"name" : "Coral8_1_Fins_Front_AO_1009.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Front_AO_1009.jpg",
+					"label" : "Coral8_1_Fins_Front_AO_1009.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_Fins_Front_M_1009.jpg-1",
+			"name" : "Coral8_1_Fins_Front_M_1009.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Front_M_1009.jpg",
+					"label" : "Coral8_1_Fins_Front_M_1009.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_Fins_Back_D_1010.jpg-1",
+			"name" : "Coral8_1_Fins_Back_D_1010.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Back_D_1010.jpg",
+					"label" : "Coral8_1_Fins_Back_D_1010.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_Fins_Back_SSS_1010.jpg-1",
+			"name" : "Coral8_1_Fins_Back_SSS_1010.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Back_SSS_1010.jpg",
+					"label" : "Coral8_1_Fins_Back_SSS_1010.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_Fins_Back_R_1010.jpg-1",
+			"name" : "Coral8_1_Fins_Back_R_1010.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Back_R_1010.jpg",
+					"label" : "Coral8_1_Fins_Back_R_1010.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_Fins_Back_NM_1010.jpg-1",
+			"name" : "Coral8_1_Fins_Back_NM_1010.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Back_NM_1010.jpg",
+					"label" : "Coral8_1_Fins_Back_NM_1010.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_Fins_Back_AO_1010.jpg-1",
+			"name" : "Coral8_1_Fins_Back_AO_1010.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Back_AO_1010.jpg",
+					"label" : "Coral8_1_Fins_Back_AO_1010.jpg"
+				}
+			]
+		},
+		{
+			"id" : "Coral8_1_Fins_Back_M_1010.jpg-1",
+			"name" : "Coral8_1_Fins_Back_M_1010.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Back_M_1010.jpg",
+					"label" : "Coral8_1_Fins_Back_M_1010.jpg"
+				}
+			]
+		}
+	],
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Coral_81_Tail_4715",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#Coral_81_Tail_4715",
+				"name" : "Coral_81_Tail_4715",
+				"label" : "Coral 8.1 Tail",
+				"parent" : "name://@selection:",
+				"geometries" : [
+					{
+						"id" : "geometry",
+						"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#Coral_81_Tail",
+						"name" : "Coral_81_Tail",
+						"label" : "shape",
+						"type" : "subdivision_surface",
+						"current_subdivision_level" : 1,
+						"edge_interpolation_mode" : "edges_only",
+						"subd_normal_smoothing_mode" : "smooth_all_normals",
+						"extra" : [
+							{
+								"type" : "studio_geometry_channels",
+								"channels" : [
+									{
+										"channel" : {
+											"id" : "SubDRenderLevel",
+											"type" : "int",
+											"current_value" : 2
+										}
+									}
+								]
+							}
+						]
+					}
+				],
+				"conform_target" : "name://@selection:",
+				"preview" : {
+					"type" : "figure",
+					"oriented_box" : {
+						"min" : [ -63.804, -130.61, -12.477 ],
+						"max" : [ 63.534, 157.85, 13.73 ]
+					},
+					"center_point" : [ 0, 0, 0 ],
+					"end_point" : [ 0, 103.876, 0 ],
+					"rotation_order" : "YXZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "hip",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#hip",
+				"name" : "hip",
+				"label" : "Hip",
+				"parent" : "#Coral_81_Tail_4715",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 105.1781, 1.824816 ],
+					"end_point" : [ 0, 88.82034, 0.02407765 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "pelvis",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#pelvis",
+				"name" : "pelvis",
+				"label" : "Pelvis",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -19.227, -17.416, -14.351 ],
+						"max" : [ 19.213, 0.705, 10.089 ]
+					},
+					"center_point" : [ 0, 107.0423, 1.873485 ],
+					"end_point" : [ 0, 88.0048, 1.555934 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "Tail1",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#Tail1",
+				"name" : "Tail1",
+				"label" : "Tail 1",
+				"parent" : "#pelvis",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -19.96, -41.145, -13.526 ],
+						"max" : [ 19.872, 3.729, 10.142 ]
+					},
+					"center_point" : [ 0, 88.0048, 1.555934 ],
+					"end_point" : [ 0, 46.1662, 1.265481 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "Tail2",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#Tail2",
+				"name" : "Tail2",
+				"label" : "Tail 2",
+				"parent" : "#Tail1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -16.015, -42.562, -9.598 ],
+						"max" : [ 16.031, 1.605, 8.39 ]
+					},
+					"center_point" : [ 0, 46.1662, 1.265481 ],
+					"end_point" : [ 0, 3.689381, 0.6424589 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "Tail3",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#Tail3",
+				"name" : "Tail3",
+				"label" : "Tail 3",
+				"parent" : "#Tail2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -11.963, -40.869, -8.434 ],
+						"max" : [ 11.914, 2.64, 6.555 ]
+					},
+					"center_point" : [ 0, 3.689999, 0.6424589 ],
+					"end_point" : [ 0, -37.35391, 0.451158 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "cFin1",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#cFin1",
+				"name" : "cFin1",
+				"label" : "Central Fin 1",
+				"parent" : "#Tail3",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -43.271, -20.49, -1.899 ],
+						"max" : [ 43.956, 10.557, 2.585 ]
+					},
+					"center_point" : [ 0, -37.35391, 0.451158 ],
+					"end_point" : [ 0, -54.24973, 0.3383685 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "cFin2",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#cFin2",
+				"name" : "cFin2",
+				"label" : "Central Fin 2",
+				"parent" : "#cFin1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -55.995, -19.671, -1.534 ],
+						"max" : [ 55.999, 2.789, 6.138 ]
+					},
+					"center_point" : [ 0, -54.24973, 0.3383685 ],
+					"end_point" : [ 0, -71.14555, 0.225579 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "cFin3",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#cFin3",
+				"name" : "cFin3",
+				"label" : "Central Fin 3",
+				"parent" : "#cFin2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -60.403, -18.536, -0.902 ],
+						"max" : [ 60.688, 5.813, 7.962 ]
+					},
+					"center_point" : [ 0, -71.14555, 0.225579 ],
+					"end_point" : [ 0, -87.84673, 1.579079 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "cFin4",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#cFin4",
+				"name" : "cFin4",
+				"label" : "Central Fin 4",
+				"parent" : "#cFin3",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -55.751, -24.278, 0.425 ],
+						"max" : [ 55.971, 8.836, 8.586 ]
+					},
+					"center_point" : [ 0, -87.84673, 1.579079 ],
+					"end_point" : [ 0, -108.5552, 3.587732 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "cFin5",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#cFin5",
+				"name" : "cFin5",
+				"label" : "Central Fin 5",
+				"parent" : "#cFin4",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -40.958, -22.124, -0.562 ],
+						"max" : [ 41.101, 10.018, 7.278 ]
+					},
+					"center_point" : [ 0, -108.5552, 3.587732 ],
+					"end_point" : [ 0, -129.2636, 2.282403 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lFin1",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#lFin1",
+				"name" : "lFin1",
+				"label" : "Left Fin 1",
+				"parent" : "#Tail2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.574, -39.823, -2.525 ],
+						"max" : [ 11.56, 35.255, 1.325 ]
+					},
+					"center_point" : [ 12.70849, 12.57, -0.3191962 ],
+					"end_point" : [ 23.07463, 11.06, 1.56 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lFin2",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#lFin2",
+				"name" : "lFin2",
+				"label" : "Left Fin 2",
+				"parent" : "#lFin1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -6.257, -44.96, -3.907 ],
+						"max" : [ 11.723, 33.9, 3.771 ]
+					},
+					"center_point" : [ 23.07463, 11.06, 1.56 ],
+					"end_point" : [ 33.7743, 5.1, 2.65 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lFin3",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#lFin3",
+				"name" : "lFin3",
+				"label" : "Left Fin 3",
+				"parent" : "#lFin2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -9.206, -46.734, -5.057 ],
+						"max" : [ 11.784, 36.727, 4.328 ]
+					},
+					"center_point" : [ 33.7743, 5.1, 2.65 ],
+					"end_point" : [ 44.78, -2.81, 4.26 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lFin4",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#lFin4",
+				"name" : "lFin4",
+				"label" : "Left Fin 4",
+				"parent" : "#lFin3",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -7.005, -43.058, -6.73 ],
+						"max" : [ 12.087, 37.978, 3.957 ]
+					},
+					"center_point" : [ 44.78, -2.81, 4.26 ],
+					"end_point" : [ 54.71, -10.09, 6.74 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lFin5",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#lFin5",
+				"name" : "lFin5",
+				"label" : "Left Fin 5",
+				"parent" : "#lFin4",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -7.922, -37.56, -8.976 ],
+						"max" : [ 11.294, 36.65, 0.173 ]
+					},
+					"center_point" : [ 54.71, -10.09, 6.74 ],
+					"end_point" : [ 61.96, -13.67, 4.69 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "rFin1",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#rFin1",
+				"name" : "rFin1",
+				"label" : "Right Fin 1",
+				"parent" : "#Tail2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -11.253, -39.694, -2.722 ],
+						"max" : [ 1.606, 35.259, 1.229 ]
+					},
+					"center_point" : [ -12.70849, 12.57092, -0.3191962 ],
+					"end_point" : [ -23.07463, 11.06143, 1.558667 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "rFin2",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#rFin2",
+				"name" : "rFin2",
+				"label" : "Right Fin 2",
+				"parent" : "#rFin1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -11.63, -44.372, -3.767 ],
+						"max" : [ 6.511, 33.954, 3.402 ]
+					},
+					"center_point" : [ -23.07463, 11.06143, 1.558667 ],
+					"end_point" : [ -33.7743, 5.104435, 2.649052 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "rFin3",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#rFin3",
+				"name" : "rFin3",
+				"label" : "Right Fin 3",
+				"parent" : "#rFin2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -11.42, -45.7, -5.166 ],
+						"max" : [ 10.172, 37.038, 4.452 ]
+					},
+					"center_point" : [ -33.7743, 5.104435, 2.649052 ],
+					"end_point" : [ -44.78432, -2.805838, 4.256249 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "rFin4",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#rFin4",
+				"name" : "rFin4",
+				"label" : "Right Fin 4",
+				"parent" : "#rFin3",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -11.806, -42.694, -6.63 ],
+						"max" : [ 7.805, 38.304, 3.913 ]
+					},
+					"center_point" : [ -44.78432, -2.805838, 4.256249 ],
+					"end_point" : [ -54.70971, -10.08549, 6.742489 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "rFin5",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#rFin5",
+				"name" : "rFin5",
+				"label" : "Right Fin 5",
+				"parent" : "#rFin4",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -10.493, -37.22, -9.028 ],
+						"max" : [ 6.691, 37.969, 0.346 ]
+					},
+					"center_point" : [ -54.70971, -10.08549, 6.742489 ],
+					"end_point" : [ -61.96283, -13.67153, 4.689193 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "abdomenLower",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#abdomenLower",
+				"name" : "abdomenLower",
+				"label" : "Abdomen Lower",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -15.395, -3.167, -8.868 ],
+						"max" : [ 15.368, 9.916, 11.592 ]
+					},
+					"center_point" : [ 0, 106.9446, 0.3423212 ],
+					"end_point" : [ 0, 115.0478, 0.4073269 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "abdomenUpper",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#abdomenUpper",
+				"name" : "abdomenUpper",
+				"label" : "Abdomen Upper",
+				"parent" : "#abdomenLower",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -13.734, -1.696, -10.48 ],
+						"max" : [ 13.734, 13.813, 10.336 ]
+					},
+					"center_point" : [ 0, 115.0947, 1.53567 ],
+					"end_point" : [ 0, 122.5955, 0.839857 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "chestLower",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#chestLower",
+				"name" : "chestLower",
+				"label" : "Chest Lower",
+				"parent" : "#abdomenUpper",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 123, 1.138297 ],
+					"end_point" : [ 0, 143.7313, 1.202407 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "chestUpper",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#chestUpper",
+				"name" : "chestUpper",
+				"label" : "Chest Upper",
+				"parent" : "#chestLower",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 136.0765, -2.479732 ],
+					"end_point" : [ 0, 149.5166, -2.438965 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lCollar",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#lCollar",
+				"name" : "lCollar",
+				"label" : "Left Collar",
+				"parent" : "#chestUpper",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 3.465208, 146.9626, -4.110317 ],
+					"end_point" : [ 13.45499, 147.5363, -4.854364 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lShldrBend",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#lShldrBend",
+				"name" : "lShldrBend",
+				"label" : "Left Shoulder Bend",
+				"parent" : "#lCollar",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 15.40978, 145.627, -4.916882 ],
+					"end_point" : [ 23.14322, 136.9117, -4.665148 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "rCollar",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#rCollar",
+				"name" : "rCollar",
+				"label" : "Right Collar",
+				"parent" : "#chestUpper",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -3.465208, 146.9626, -4.110317 ],
+					"end_point" : [ -13.45499, 147.5363, -4.854364 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "rShldrBend",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#rShldrBend",
+				"name" : "rShldrBend",
+				"label" : "Right Shoulder Bend",
+				"parent" : "#rCollar",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -15.40978, 145.627, -4.916882 ],
+					"end_point" : [ -23.14322, 136.9117, -4.665148 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "neckLower",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#neckLower",
+				"name" : "neckLower",
+				"label" : "Neck Lower",
+				"parent" : "#chestUpper",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 154.33, -3.98 ],
+					"end_point" : [ 0, 157.69, -2.93 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lPectoral",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#lPectoral",
+				"name" : "lPectoral",
+				"label" : "Left Pectoral",
+				"parent" : "#chestLower",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 3.121763, 131.7603, -7.454938 ],
+					"end_point" : [ 10.76093, 135.1547, 12.01135 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "rPectoral",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#rPectoral",
+				"name" : "rPectoral",
+				"label" : "Right Pectoral",
+				"parent" : "#chestLower",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -3.121763, 131.7603, -7.454938 ],
+					"end_point" : [ -10.76093, 135.1547, 12.01135 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			}
+		],
+		"modifiers" : [
+			{
+				"id" : "SkinBinding",
+				"url" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#SkinBinding",
+				"parent" : "#geometry",
+				"extra" : [
+					{
+						"type" : "skin_settings",
+						"auto_normalize_general" : true,
+						"auto_normalize_local" : true,
+						"auto_normalize_scale" : true,
+						"binding_mode" : "General",
+						"general_map_mode" : "DualQuat",
+						"scale_mode" : "BindingMaps"
+					}
+				]
+			}
+		],
+		"materials" : [
+			{
+				"id" : "Body",
+				"url" : "/data/Daz%203D/Built-in%20Content/Daz%20Iray%20PBRSkin/PBRSkin.dsf#PBRSkin",
+				"geometry" : "#geometry",
+				"groups" : [ "Body" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ],
+						"current_value" : [ 1, 1, 1 ],
+						"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodyD_HALF_1003.jpg"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/UV%20Sets/DAZ%203D/Base/default.dsf#default",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallicity Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodyM_HALF_1003.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Roughness",
+									"type" : "float",
+									"current_value" : 0.3,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Weight",
+									"type" : "float",
+									"current_value" : 0.85,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodySSS_HALF_1003.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Weight",
+									"type" : "float",
+									"current_value" : 0.6,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Reflectivity",
+									"type" : "float",
+									"current_value" : 0.25,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Lobe 1 Roughness",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodyR_HALF_1003.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Lobe 2 Roughness Mult",
+									"type" : "float",
+									"current_value" : 0.55,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Ratio",
+									"type" : "float",
+									"current_value" : 0.15,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 2,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodyNM_HALF_1003.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Makeup Weight",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Makeup Base Color",
+									"type" : "color",
+									"current_value" : [ 1, 1, 1 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Makeup Roughness Mult",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Occlusion Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient Occlusion Weight",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodyAO_HALF_1003.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Occusion Facing",
+									"type" : "float",
+									"current_value" : 0.3
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Weight",
+									"type" : "float",
+									"current_value" : 0.6,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Horizontal Tiles",
+									"type" : "float",
+									"current_value" : 70
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Vertical Tiles",
+									"type" : "float",
+									"current_value" : 70
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_MicroDetailNM.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Specular Roughness Mult",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_MicroDetailR.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Weight",
+									"type" : "float",
+									"current_value" : 0.2535211,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Color",
+									"type" : "color",
+									"current_value" : [ 1, 1, 1 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Roughness",
+									"type" : "float",
+									"current_value" : 0.6666667,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Bump Weight",
+									"type" : "float",
+									"current_value" : 0.4957627
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Weight",
+									"type" : "float",
+									"current_value" : 0.41,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodyM_HALF_1003.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Color",
+									"type" : "color",
+									"current_value" : [ 0, 1, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Density",
+									"type" : "float",
+									"current_value" : 0.365
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Minimum Displacement",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Maximum Displacement",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmission Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmitted Color",
+									"type" : "float_color",
+									"current_value" : [ 0.9764706, 0.4823532, 0.3529409 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmitted Measurement Distance",
+									"type" : "float",
+									"current_value" : 0.1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Sub Surface Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "SSS Direction",
+									"type" : "float",
+									"current_value" : -0.7
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Gils",
+				"url" : "/data/Daz%203D/Built-in%20Content/Daz%20Iray%20PBRSkin/PBRSkin.dsf#PBRSkin",
+				"geometry" : "#geometry",
+				"groups" : [ "Gils" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ],
+						"current_value" : [ 1, 1, 1 ],
+						"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodyD_HALF_1003.jpg"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/UV%20Sets/DAZ%203D/Base/default.dsf#default",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallicity Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Roughness",
+									"type" : "float",
+									"current_value" : 0.3,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Weight",
+									"type" : "float",
+									"current_value" : 0.85,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodySSS_HALF_1003.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Weight",
+									"type" : "float",
+									"current_value" : 0.6,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Reflectivity",
+									"type" : "float",
+									"current_value" : 0.25,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Lobe 1 Roughness",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodyR_HALF_1003.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Lobe 2 Roughness Mult",
+									"type" : "float",
+									"current_value" : 0.55,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Ratio",
+									"type" : "float",
+									"current_value" : 0.15,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 2,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodyNM_HALF_1003.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Makeup Weight",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Makeup Base Color",
+									"type" : "color",
+									"current_value" : [ 1, 1, 1 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Makeup Roughness Mult",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Occlusion Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient Occlusion Weight",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_BodyAO_HALF_1003.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Occusion Facing",
+									"type" : "float",
+									"current_value" : 0.3
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Weight",
+									"type" : "float",
+									"current_value" : 0.6,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Horizontal Tiles",
+									"type" : "float",
+									"current_value" : 70
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Vertical Tiles",
+									"type" : "float",
+									"current_value" : 70
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_MicroDetailNM.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Specular Roughness Mult",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_MicroDetailR.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Weight",
+									"type" : "float",
+									"current_value" : 0.2535211,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Color",
+									"type" : "color",
+									"current_value" : [ 1, 1, 1 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Roughness",
+									"type" : "float",
+									"current_value" : 0.6666667,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Bump Weight",
+									"type" : "float",
+									"current_value" : 0.4957627
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Weight",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Color",
+									"type" : "color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Minimum Displacement",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Maximum Displacement",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmission Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmitted Color",
+									"type" : "float_color",
+									"current_value" : [ 0.9764706, 0.4823532, 0.3529409 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmitted Measurement Distance",
+									"type" : "float",
+									"current_value" : 0.1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Sub Surface Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "SSS Direction",
+									"type" : "float",
+									"current_value" : -0.7
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Tail",
+				"url" : "/data/Daz%203D/Built-in%20Content/Daz%20Iray%20PBRSkin/PBRSkin.dsf#PBRSkin",
+				"geometry" : "#geometry",
+				"groups" : [ "Tail" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ],
+						"current_value" : [ 1, 1, 1 ],
+						"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_TailD_1008.jpg"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/UV%20Sets/DAZ%203D/Base/default.dsf#default",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallicity Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_TailM_1008.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Roughness",
+									"type" : "float",
+									"current_value" : 0.3,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Weight",
+									"type" : "float",
+									"current_value" : 0.85,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_TailSSS_1008.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Weight",
+									"type" : "float",
+									"current_value" : 0.6,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Reflectivity",
+									"type" : "float",
+									"current_value" : 0.25,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Lobe 1 Roughness",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_TailR_1008.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Lobe 2 Roughness Mult",
+									"type" : "float",
+									"current_value" : 0.55,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Ratio",
+									"type" : "float",
+									"current_value" : 0.15,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 2,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_TailNM_1008.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Makeup Weight",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Makeup Base Color",
+									"type" : "color",
+									"current_value" : [ 1, 1, 1 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Makeup Roughness Mult",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Occlusion Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient Occlusion Weight",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_TailAO_1008.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Occusion Facing",
+									"type" : "float",
+									"current_value" : 0.3
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Weight",
+									"type" : "float",
+									"current_value" : 0.6,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Horizontal Tiles",
+									"type" : "float",
+									"current_value" : 70
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Vertical Tiles",
+									"type" : "float",
+									"current_value" : 70
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_MicroDetailNM.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Specular Roughness Mult",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_MicroDetailR.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Weight",
+									"type" : "float",
+									"current_value" : 0.2535211,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Color",
+									"type" : "color",
+									"current_value" : [ 1, 1, 1 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Roughness",
+									"type" : "float",
+									"current_value" : 0.6666667,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Bump Weight",
+									"type" : "float",
+									"current_value" : 0.4957627
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Weight",
+									"type" : "float",
+									"current_value" : 0.41,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_TailM_1008.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Color",
+									"type" : "color",
+									"current_value" : [ 0, 1, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Density",
+									"type" : "float",
+									"current_value" : 0.365
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Minimum Displacement",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Maximum Displacement",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmission Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmitted Color",
+									"type" : "float_color",
+									"current_value" : [ 0.9764706, 0.4823532, 0.3529409 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmitted Measurement Distance",
+									"type" : "float",
+									"current_value" : 0.1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Sub Surface Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "SSS Direction",
+									"type" : "float",
+									"current_value" : -0.7
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Fins Front",
+				"url" : "/data/Daz%203D/Built-in%20Content/Daz%20Iray%20PBRSkin/PBRSkin.dsf#PBRSkin",
+				"geometry" : "#geometry",
+				"groups" : [ "Fins Front" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ],
+						"current_value" : [ 1, 1, 1 ],
+						"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Front_D_1009.jpg"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/UV%20Sets/DAZ%203D/Base/default.dsf#default",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallicity Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Roughness",
+									"type" : "float",
+									"current_value" : 0.3,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Weight",
+									"type" : "float",
+									"current_value" : 0.85,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7176471, 0.9764706 ],
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Front_SSS_1009.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Weight",
+									"type" : "float",
+									"current_value" : 0.6,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Reflectivity",
+									"type" : "float",
+									"current_value" : 0.25,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Lobe 1 Roughness",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Front_R_1009.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Lobe 2 Roughness Mult",
+									"type" : "float",
+									"current_value" : 0.55,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Ratio",
+									"type" : "float",
+									"current_value" : 0.15,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 2,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Front_NM_1009.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Makeup Weight",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Makeup Base Color",
+									"type" : "color",
+									"current_value" : [ 1, 1, 1 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Makeup Roughness Mult",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Occlusion Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient Occlusion Weight",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Front_AO_1009.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Occusion Facing",
+									"type" : "float",
+									"current_value" : 0.3
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Weight",
+									"type" : "float",
+									"current_value" : 0.6,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Horizontal Tiles",
+									"type" : "float",
+									"current_value" : 70
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Vertical Tiles",
+									"type" : "float",
+									"current_value" : 70
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_MicroDetailNM.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Specular Roughness Mult",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_MicroDetailR.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Weight",
+									"type" : "float",
+									"current_value" : 0.2535211,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Color",
+									"type" : "color",
+									"current_value" : [ 1, 1, 1 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Roughness",
+									"type" : "float",
+									"current_value" : 0.6666667,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Bump Weight",
+									"type" : "float",
+									"current_value" : 0.4957627
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Weight",
+									"type" : "float",
+									"current_value" : 0.54,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Front_M_1009.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Color",
+									"type" : "color",
+									"current_value" : [ 0, 0.5019608, 1 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Roughness",
+									"type" : "float",
+									"current_value" : 0.065,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Size",
+									"type" : "float",
+									"current_value" : 1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Density",
+									"type" : "float",
+									"current_value" : 0.73
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Minimum Displacement",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Maximum Displacement",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmission Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmitted Color",
+									"type" : "float_color",
+									"current_value" : [ 0.9764706, 0.4823532, 0.3529409 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmitted Measurement Distance",
+									"type" : "float",
+									"current_value" : 0.1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Sub Surface Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "SSS Direction",
+									"type" : "float",
+									"current_value" : -0.7
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Fins Back",
+				"url" : "/data/Daz%203D/Built-in%20Content/Daz%20Iray%20PBRSkin/PBRSkin.dsf#PBRSkin",
+				"geometry" : "#geometry",
+				"groups" : [ "Fins Back" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ],
+						"current_value" : [ 1, 1, 1 ],
+						"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Back_D_1010.jpg"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/UV%20Sets/DAZ%203D/Base/default.dsf#default",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallicity Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Roughness",
+									"type" : "float",
+									"current_value" : 0.3,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Weight",
+									"type" : "float",
+									"current_value" : 0.85,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7176471, 0.9764706 ],
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Back_SSS_1010.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Weight",
+									"type" : "float",
+									"current_value" : 0.6,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Reflectivity",
+									"type" : "float",
+									"current_value" : 0.25,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Lobe 1 Roughness",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Back_R_1010.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Lobe 2 Roughness Mult",
+									"type" : "float",
+									"current_value" : 0.55,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Ratio",
+									"type" : "float",
+									"current_value" : 0.15,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 2,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Back_NM_1010.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Makeup Weight",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Makeup Base Color",
+									"type" : "color",
+									"current_value" : [ 1, 1, 1 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Makeup Roughness Mult",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Occlusion Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient Occlusion Weight",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Back_AO_1010.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Occusion Facing",
+									"type" : "float",
+									"current_value" : 0.3
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Weight",
+									"type" : "float",
+									"current_value" : 0.6,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Horizontal Tiles",
+									"type" : "float",
+									"current_value" : 70
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Vertical Tiles",
+									"type" : "float",
+									"current_value" : 70
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_MicroDetailNM.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Detail Specular Roughness Mult",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_MicroDetailR.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Weight",
+									"type" : "float",
+									"current_value" : 0.2535211,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Color",
+									"type" : "color",
+									"current_value" : [ 1, 1, 1 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Roughness",
+									"type" : "float",
+									"current_value" : 0.6666667,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Bump Weight",
+									"type" : "float",
+									"current_value" : 0.4957627
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Weight",
+									"type" : "float",
+									"current_value" : 0.54,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis8/Coral8_1/Coral8_1_Fins_Back_M_1010.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Color",
+									"type" : "color",
+									"current_value" : [ 0, 0.5019608, 1 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Roughness",
+									"type" : "float",
+									"current_value" : 0.065,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Size",
+									"type" : "float",
+									"current_value" : 1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Density",
+									"type" : "float",
+									"current_value" : 0.73
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Minimum Displacement",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Maximum Displacement",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmission Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmitted Color",
+									"type" : "float_color",
+									"current_value" : [ 0.9764706, 0.4823532, 0.3529409 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmitted Measurement Distance",
+									"type" : "float",
+									"current_value" : 0.1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Sub Surface Enable",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "SSS Direction",
+									"type" : "float",
+									"current_value" : -0.7
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

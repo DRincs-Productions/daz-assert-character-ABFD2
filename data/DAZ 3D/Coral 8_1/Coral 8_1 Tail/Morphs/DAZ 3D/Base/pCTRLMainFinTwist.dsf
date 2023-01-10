@@ -1,0 +1,99 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Morphs/DAZ%203D/Base/pCTRLMainFinTwist.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2021-07-21T19:26:45Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "pCTRLMainFinTwist",
+			"name" : "pCTRLMainFinTwist",
+			"parent" : "/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#Coral_81_Tail_4715",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3764706, 0.2784314, 0.3254902 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Main Fin Twist",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Pose Controls/Tail",
+			"formulas" : [
+				{
+					"output" : "cFin1:/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#cFin1?rotation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Coral_81_Tail_4715:#pCTRLMainFinTwist?value" },
+						{ "op" : "push", "val" : 90 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "cFin2:/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#cFin2?rotation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Coral_81_Tail_4715:#pCTRLMainFinTwist?value" },
+						{ "op" : "push", "val" : 60 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "cFin3:/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#cFin3?rotation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Coral_81_Tail_4715:#pCTRLMainFinTwist?value" },
+						{ "op" : "push", "val" : 60 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "cFin4:/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#cFin4?rotation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Coral_81_Tail_4715:#pCTRLMainFinTwist?value" },
+						{ "op" : "push", "val" : 60 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "cFin5:/data/Daz%203D/Coral%208_1/Coral%208_1%20Tail/Coral_81_Tail_4715.dsf#cFin5?rotation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Coral_81_Tail_4715:#pCTRLMainFinTwist?value" },
+						{ "op" : "push", "val" : 60 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : -1,
+				"deltas" : {
+					"count" : 0,
+					"values" : [
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "pCTRLMainFinTwist-1",
+				"url" : "#pCTRLMainFinTwist"
+			}
+		]
+	}
+}
